@@ -157,6 +157,11 @@
   const dran = () => name(zustand.dran);
   const andere = () => name(1 - zustand.dran);
   function wechseln() { zustand.dran = 1 - zustand.dran; }
+
+  /** Ersetzt die Platzhalter {dran} und {andere} in Kartentexten durch die Namen. */
+  function einsetzen(text) {
+    return String(text).replace(/\{dran\}/g, dran()).replace(/\{andere\}/g, andere());
+  }
   const bereit = () => MODI.some(m => m.id === zustand.modus && m.verfuegbar);
 
   /* ---- Einstellungen ----------------------------------------------------- */
@@ -211,7 +216,7 @@
     zustand, daten,
     Stapel, mischen, ziehen, mixFolge, antworten,
     passt, passtModus, filtern,
-    name, dran, andere, wechseln, bereit,
+    name, dran, andere, wechseln, einsetzen, bereit,
     setModus, setIntensitaet, setNamen, einstellungenLaden, speichern, laden,
   };
 })(window);

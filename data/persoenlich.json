@@ -1,1 +1,740 @@
-{"karten": []}
+{
+  "hinweis": "Platzhalter im Text: {dran} = Person, die an der Reihe ist; {andere} = die andere Person.",
+  "karten": [
+    {
+      "id": "p001",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Was hat dich heute zum Lächeln gebracht?"
+    },
+    {
+      "id": "p002",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Wie sieht für dich ein perfekter Sonntagmorgen aus?"
+    },
+    {
+      "id": "p003",
+      "thema": "Kindheit",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welches Essen schmeckt für dich nach Kindheit?"
+    },
+    {
+      "id": "p004",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welches Lied hebt sofort deine Laune?"
+    },
+    {
+      "id": "p005",
+      "thema": "Träume",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Wohin würdest du morgen reisen, wenn alles möglich wäre?"
+    },
+    {
+      "id": "p006",
+      "thema": "Kindheit",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Was wolltest du als Kind einmal werden?"
+    },
+    {
+      "id": "p007",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welche kleine Sache macht deinen Alltag schöner?"
+    },
+    {
+      "id": "p008",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Bei welchem Geruch fühlst du dich sofort wohl?"
+    },
+    {
+      "id": "p009",
+      "thema": "Kindheit",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welches Spiel hast du als Kind am liebsten gespielt?"
+    },
+    {
+      "id": "p010",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Was kannst du überraschend gut?"
+    },
+    {
+      "id": "p011",
+      "thema": "Träume",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Was würdest du gern einmal lernen, einfach nur aus Freude?"
+    },
+    {
+      "id": "p012",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welcher Ort in deiner Nähe tut dir gut?"
+    },
+    {
+      "id": "p013",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welcher Film oder welches Buch ist dir lange im Kopf geblieben?"
+    },
+    {
+      "id": "p014",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Womit kann man dir ganz einfach eine Freude machen?"
+    },
+    {
+      "id": "p015",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Was war das schönste Geschenk, das du je bekommen hast?"
+    },
+    {
+      "id": "p016",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Bist du eher Morgenmensch oder Nachtmensch – und was liebst du an dieser Tageszeit?"
+    },
+    {
+      "id": "p017",
+      "thema": "Kindheit",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welchen Ort aus deiner Kindheit würdest du gern noch einmal besuchen?"
+    },
+    {
+      "id": "p018",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welche Jahreszeit passt am besten zu dir, und warum?"
+    },
+    {
+      "id": "p019",
+      "thema": "Träume",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Wenn du einen Tag lang einen anderen Beruf ausprobieren dürftest: Welcher wäre es?"
+    },
+    {
+      "id": "p020",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Worüber könntest du stundenlang reden?"
+    },
+    {
+      "id": "p021",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welcher Urlaubsmoment fällt dir als Erstes ein, wenn du die Augen schließt?"
+    },
+    {
+      "id": "p022",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Was ist dein liebstes Ritual am Abend?"
+    },
+    {
+      "id": "p023",
+      "thema": "Alltag",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Welches Tier wärst du gern für einen Tag?"
+    },
+    {
+      "id": "p024",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Wer hat dich zuletzt richtig zum Lachen gebracht?"
+    },
+    {
+      "id": "p025",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was bedeutet Zuhause für dich?"
+    },
+    {
+      "id": "p026",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Wobei vergisst du völlig die Zeit?"
+    },
+    {
+      "id": "p027",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Auf welchen Moment in deinem Leben bist du stolz?"
+    },
+    {
+      "id": "p028",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was hilft dir nach einem schweren Tag?"
+    },
+    {
+      "id": "p029",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Welcher Mensch hat dich besonders geprägt, und wodurch?"
+    },
+    {
+      "id": "p030",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Welchen Rat hast du bekommen, der dir bis heute hilft?"
+    },
+    {
+      "id": "p031",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Wann hast du dich zuletzt richtig lebendig gefühlt?"
+    },
+    {
+      "id": "p032",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was ist dir im Leben wichtiger geworden, als es früher war?"
+    },
+    {
+      "id": "p033",
+      "thema": "Träume",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was möchtest du in fünf Jahren über dein Leben sagen können?"
+    },
+    {
+      "id": "p034",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Wofür bist du gerade besonders dankbar?"
+    },
+    {
+      "id": "p035",
+      "thema": "Kindheit",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was hast du von deinen Eltern oder Großeltern übernommen, ohne es zu merken?"
+    },
+    {
+      "id": "p036",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was brauchst du, um dich wirklich zu erholen?"
+    },
+    {
+      "id": "p037",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Woran merkt man, dass es dir gut geht?"
+    },
+    {
+      "id": "p038",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Welche Entscheidung hat dein Leben in eine neue Richtung gelenkt?"
+    },
+    {
+      "id": "p039",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was macht dich nervös, obwohl man es dir selten anmerkt?"
+    },
+    {
+      "id": "p040",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was macht für dich einen guten Zuhörer aus?"
+    },
+    {
+      "id": "p041",
+      "thema": "Träume",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Welchen Traum hast du noch nie ganz aufgegeben?"
+    },
+    {
+      "id": "p042",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Wann fällt es dir schwer, um Hilfe zu bitten?"
+    },
+    {
+      "id": "p043",
+      "thema": "Kindheit",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Welche Erinnerung aus deiner Schulzeit trägst du gern mit dir?"
+    },
+    {
+      "id": "p044",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was würdest du deinem jüngeren Ich gern sagen?"
+    },
+    {
+      "id": "p045",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Worüber hast du deine Meinung in den letzten Jahren geändert?"
+    },
+    {
+      "id": "p046",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Wovor hast du Angst, über die du selten sprichst?"
+    },
+    {
+      "id": "p047",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Wann hast du zuletzt geweint, und was hat dich bewegt?"
+    },
+    {
+      "id": "p048",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Was bereust du, nicht getan oder gesagt zu haben?"
+    },
+    {
+      "id": "p049",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "In welchen Momenten fühlst du dich einsam?"
+    },
+    {
+      "id": "p050",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Was wünschst du dir, das andere Menschen an dir besser verstehen?"
+    },
+    {
+      "id": "p051",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Welcher Abschied ist dir besonders schwergefallen?"
+    },
+    {
+      "id": "p052",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Was an dir selbst fällt dir schwer anzunehmen?"
+    },
+    {
+      "id": "p053",
+      "thema": "Werte",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Was soll von dir bleiben, wenn Menschen später an dich denken?"
+    },
+    {
+      "id": "p054",
+      "thema": "Gefühle",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Wofür möchtest du dir selbst gern vergeben?"
+    },
+    {
+      "id": "p055",
+      "thema": "Erinnerungen",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Welche schwere Zeit hat dich geprägt, und was hast du daraus mitgenommen?"
+    },
+    {
+      "id": "p056",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Was war dein erster Gedanke, als du {andere} zum ersten Mal gesehen hast?"
+    },
+    {
+      "id": "p057",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Welche kleine Angewohnheit von {andere} magst du besonders?"
+    },
+    {
+      "id": "p058",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Welcher gemeinsame Abend fällt dir sofort ein, wenn du an „schön“ denkst?"
+    },
+    {
+      "id": "p059",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Welches Lied erinnert dich an euch beide?"
+    },
+    {
+      "id": "p060",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Was solltet ihr unbedingt mal wieder zusammen machen?"
+    },
+    {
+      "id": "p061",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Bei welchem Essen denkst du an euch beide?"
+    },
+    {
+      "id": "p062",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Wann hast du zuletzt gedacht: „Typisch wir“?"
+    },
+    {
+      "id": "p063",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Welchen Ort würdest du {andere} gern einmal zeigen?"
+    },
+    {
+      "id": "p064",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Was macht {andere}, das dich immer wieder zum Lachen bringt?"
+    },
+    {
+      "id": "p065",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Wie sähe ein perfekter freier Tag für euch zwei aus?"
+    },
+    {
+      "id": "p066",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Wann hast du gemerkt, dass du dich in {andere} verliebt hast?"
+    },
+    {
+      "id": "p067",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Wodurch fühlst du dich von {andere} besonders geliebt?"
+    },
+    {
+      "id": "p068",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Was hat {andere} einmal für dich getan, das du nie vergessen hast?"
+    },
+    {
+      "id": "p069",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Was hast du durch {andere} über dich selbst gelernt?"
+    },
+    {
+      "id": "p070",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Worauf bist du in eurer Beziehung stolz?"
+    },
+    {
+      "id": "p071",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Welche eurer Erinnerungen würdest du gern noch einmal erleben?"
+    },
+    {
+      "id": "p072",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Was wünschst du dir für euer nächstes gemeinsames Jahr?"
+    },
+    {
+      "id": "p073",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "In welchen Momenten fühlst du dich {andere} besonders nah?"
+    },
+    {
+      "id": "p074",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Was tut dir gut, nachdem ihr euch gestritten habt?"
+    },
+    {
+      "id": "p075",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Was schätzt du an {andere}, sagst es aber viel zu selten?"
+    },
+    {
+      "id": "p076",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Welchen gemeinsamen Traum solltet ihr bald angehen?"
+    },
+    {
+      "id": "p077",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Was brauchst du von {andere}, wenn es dir nicht gut geht?"
+    },
+    {
+      "id": "p078",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Wovor hast du Angst, wenn du an eure Zukunft denkst?"
+    },
+    {
+      "id": "p079",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Was fällt dir schwer, {andere} zu sagen?"
+    },
+    {
+      "id": "p080",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Wann hast du dich von {andere} nicht verstanden gefühlt, und was hätte dir geholfen?"
+    },
+    {
+      "id": "p081",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Was vermisst du manchmal aus eurer Anfangszeit?"
+    },
+    {
+      "id": "p082",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Wofür möchtest du {andere} danken, hast es aber noch nie ausgesprochen?"
+    },
+    {
+      "id": "p083",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Wovon wünschst du dir in eurer Beziehung mehr?"
+    },
+    {
+      "id": "p084",
+      "thema": "Wir",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Woran merkst du, dass ihr gemeinsam gewachsen seid?"
+    },
+    {
+      "id": "p085",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Was war dein erster Eindruck von {andere}?"
+    },
+    {
+      "id": "p086",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Welche gemeinsame Erinnerung bringt dich heute noch zum Lachen?"
+    },
+    {
+      "id": "p087",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Was solltet ihr unbedingt einmal zusammen unternehmen?"
+    },
+    {
+      "id": "p088",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Welche Eigenschaft von {andere} hättest du gern selbst?"
+    },
+    {
+      "id": "p089",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Mit welchen drei Worten würdest du {andere} einem Fremden beschreiben?"
+    },
+    {
+      "id": "p090",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Welches Lied oder welcher Film ist „euer Ding“?"
+    },
+    {
+      "id": "p091",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "In welcher Situation rufst du am liebsten {andere} an?"
+    },
+    {
+      "id": "p092",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Was habt ihr gemeinsam, das kaum jemand weiß?"
+    },
+    {
+      "id": "p093",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Wann hast du gemerkt, dass aus euch echte Freunde geworden sind?"
+    },
+    {
+      "id": "p094",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Was schätzt du an eurer Freundschaft am meisten?"
+    },
+    {
+      "id": "p095",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Wobei hat {andere} dir einmal mehr geholfen, als {andere} vermutlich weiß?"
+    },
+    {
+      "id": "p096",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Was macht für dich eine gute Freundschaft aus?"
+    },
+    {
+      "id": "p097",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Was hast du von {andere} gelernt?"
+    },
+    {
+      "id": "p098",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Welche Seite von dir kennen nur enge Freunde?"
+    },
+    {
+      "id": "p099",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Was wünschst du dir für eure Freundschaft in den nächsten Jahren?"
+    },
+    {
+      "id": "p100",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Worüber würdest du gern öfter mit {andere} sprechen?"
+    },
+    {
+      "id": "p101",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Wann hättest du {andere} gebraucht und hast es nicht gesagt?"
+    },
+    {
+      "id": "p102",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Was fällt dir schwer, {andere} anzuvertrauen?"
+    },
+    {
+      "id": "p103",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Gab es einen Moment, in dem du Angst hattest, dass ihr euch verliert?"
+    },
+    {
+      "id": "p104",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Was möchtest du {andere} schon lange einmal sagen?"
+    },
+    {
+      "id": "p105",
+      "thema": "Freundschaft",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Was wünschst du dir von {andere}, wenn es dir schlecht geht?"
+    }
+  ]
+}

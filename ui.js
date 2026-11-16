@@ -505,21 +505,21 @@
     fragen(karte) {
       return [h('div', { class: 'card card--grow' },
         h('span', { class: 'card__kicker' }, karte.thema || 'Persönliche Frage'),
-        h('p', { class: 'card__text' }, karte.text),
+        h('p', { class: 'card__text' }, Game.einsetzen(karte.text)),
         h('p', { class: 'card__note' }, Game.andere() + ' hört zu und darf nachfragen.'))];
     },
 
     aufgaben(karte) {
       return [h('div', { class: 'card' + (karte.dauer ? '' : ' card--grow') },
         h('span', { class: 'card__kicker' }, karte.dauer ? 'Aufgabe mit Timer' : 'Aufgabe'),
-        h('p', { class: 'card__text' }, karte.text))]
+        h('p', { class: 'card__text' }, Game.einsetzen(karte.text)))]
         .concat(karte.dauer ? timerBlock(karte.dauer) : []);
     },
 
     satz(karte) {
       return [h('div', { class: 'card' },
         h('span', { class: 'card__kicker' }, 'Satzanfang'),
-        h('p', { class: 'card__text' }, karte.text),
+        h('p', { class: 'card__text' }, Game.einsetzen(karte.text)),
         h('p', { class: 'card__note' }, 'Sprich den Satz laut zu Ende. Der erste Gedanke zählt.')),
       schreibfeld('Wer mag, schreibt den Satz erst auf (optional)')];
     },

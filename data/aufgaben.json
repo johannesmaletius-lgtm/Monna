@@ -1,1 +1,388 @@
-{"karten": []}
+{
+  "hinweis": "dauer = Timer in Sekunden (optional). Platzhalter im Text: {dran}, {andere}.",
+  "karten": [
+    {
+      "id": "a001",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Schaut euch 60 Sekunden lang in die Augen, ohne zu sprechen. Lächeln ist erlaubt.",
+      "dauer": 60
+    },
+    {
+      "id": "a002",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Mach {andere} ein ehrliches Kompliment, das du noch nie ausgesprochen hast."
+    },
+    {
+      "id": "a003",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Zeig {andere} das letzte Foto auf deinem Handy, das dich glücklich gemacht hat, und erzähl die Geschichte dazu."
+    },
+    {
+      "id": "a004",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Nenne in 60 Sekunden so viele Dinge wie möglich, die du an {andere} magst.",
+      "dauer": 60
+    },
+    {
+      "id": "a005",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Summe eine Melodie. {andere} errät das Lied – oder ihr summt einfach gemeinsam weiter."
+    },
+    {
+      "id": "a006",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Beschreibe deinen heutigen Tag in genau drei Worten."
+    },
+    {
+      "id": "a007",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Schließt beide die Augen und lauscht 30 Sekunden lang. Erzählt euch danach, was ihr gehört habt.",
+      "dauer": 30
+    },
+    {
+      "id": "a008",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Stell {andere} eine Frage, die du schon immer einmal stellen wolltest."
+    },
+    {
+      "id": "a009",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Erzähl von einem Lieblingsort – so genau, dass {andere} ihn vor sich sehen kann."
+    },
+    {
+      "id": "a010",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Schreib mit dem Finger ein Wort in die Handfläche von {andere}. {andere} hat 60 Sekunden zum Raten.",
+      "dauer": 60
+    },
+    {
+      "id": "a011",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Macht gemeinsam ein Foto, das zu diesem Moment passt."
+    },
+    {
+      "id": "a012",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Nenne drei Dinge, die du gerade siehst, zwei, die du hörst, und eines, das du spürst."
+    },
+    {
+      "id": "a013",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Streckt und dehnt euch 45 Sekunden lang gemeinsam – so, wie es gerade guttut.",
+      "dauer": 45
+    },
+    {
+      "id": "a014",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Erzähl einen Witz oder eine lustige Geschichte. Es darf auch ein schlechter Witz sein."
+    },
+    {
+      "id": "a015",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Erzähl {andere} von einem Lied, das dir gerade viel bedeutet, und warum."
+    },
+    {
+      "id": "a016",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Holt euch euer Lieblingsgetränk oder ein Glas Wasser und stoßt auf etwas Kleines an."
+    },
+    {
+      "id": "a017",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Erzählt abwechselnd, Satz für Satz, eine erfundene Geschichte. Du beginnst mit: „Es war einmal …“",
+      "dauer": 60
+    },
+    {
+      "id": "a018",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Mach eine Geste oder Bewegung nach, die typisch für {andere} ist – liebevoll, versteht sich."
+    },
+    {
+      "id": "a019",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Nenne ein Gericht, einen Ort und ein Lied, die zu {andere} passen."
+    },
+    {
+      "id": "a020",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Erzähl von etwas, das du in letzter Zeit zum ersten Mal gemacht hast."
+    },
+    {
+      "id": "a021",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Erzähl 90 Sekunden lang von einem Menschen, der dir wichtig ist. {andere} hört nur zu.",
+      "dauer": 90
+    },
+    {
+      "id": "a022",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Sag {andere} drei Dinge, für die du heute dankbar bist."
+    },
+    {
+      "id": "a023",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Erzähl von einem Moment, in dem {andere} dich beeindruckt hat."
+    },
+    {
+      "id": "a024",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Nimm dir zwei Minuten und erzähl von einem Traum, den du dir noch erfüllen möchtest. {andere} hört nur zu.",
+      "dauer": 120
+    },
+    {
+      "id": "a025",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Nenne eine Sache, die du dir für die kommende Woche vornimmst – nur für dich."
+    },
+    {
+      "id": "a026",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Beschreibe {andere} so, wie es ein guter Roman auf der ersten Seite tun würde."
+    },
+    {
+      "id": "a027",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Erzähl von einem Fehler, über den du heute lachen kannst."
+    },
+    {
+      "id": "a028",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Schweigt 60 Sekunden gemeinsam. Danach sagt jede Person ein Wort dazu, wie es war.",
+      "dauer": 60
+    },
+    {
+      "id": "a029",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Plant gemeinsam eine Kleinigkeit für die nächsten sieben Tage und legt gleich den Tag fest."
+    },
+    {
+      "id": "a030",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Sag {andere}, was du dir von eurer gemeinsamen Zeit heute wünschst."
+    },
+    {
+      "id": "a031",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Erzähl zwei Minuten lang von etwas, das dich gerade beschäftigt. {andere} hört zu, ohne Ratschläge zu geben.",
+      "dauer": 120
+    },
+    {
+      "id": "a032",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Sag {andere} etwas, das dir schwerfällt auszusprechen. Beginne mit: „Ich habe dir noch nie gesagt, dass …“"
+    },
+    {
+      "id": "a033",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Bitte {andere} um etwas, das du dir schon länger wünschst."
+    },
+    {
+      "id": "a034",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Erzähl von einer Sorge und sag dazu, was dir jetzt guttun würde: zuhören, mitdenken oder ablenken."
+    },
+    {
+      "id": "a035",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Gib {andere} einen Kuss auf die Stirn."
+    },
+    {
+      "id": "a036",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Umarmt euch 30 Sekunden lang, ohne etwas zu sagen.",
+      "dauer": 30
+    },
+    {
+      "id": "a037",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Erzähl von eurem ersten Date – aus deiner Sicht, mit allen Details, an die du dich erinnerst."
+    },
+    {
+      "id": "a038",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Mach ein Selfie von euch beiden, genau so, wie ihr jetzt seid."
+    },
+    {
+      "id": "a039",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Massiere {andere} 60 Sekunden lang die Schultern oder die Hände.",
+      "dauer": 60
+    },
+    {
+      "id": "a040",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Denk dir einen neuen Kosenamen für {andere} aus, der nur heute gilt."
+    },
+    {
+      "id": "a041",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Haltet euch 60 Sekunden an den Händen und atmet ruhig im gleichen Rhythmus.",
+      "dauer": 60
+    },
+    {
+      "id": "a042",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Sag {andere} drei Dinge, die du an eurem Alltag zu zweit liebst."
+    },
+    {
+      "id": "a043",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Beschreibe einen Moment, in dem du {andere} besonders schön fandest."
+    },
+    {
+      "id": "a044",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Tanzt 90 Sekunden langsam miteinander – auch ganz ohne Musik.",
+      "dauer": 90
+    },
+    {
+      "id": "a045",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Schlag ein kleines Abenteuer vor, das ihr in diesem Monat zusammen erlebt."
+    },
+    {
+      "id": "a046",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Flüstere {andere} etwas ins Ohr, das nur für euch beide bestimmt ist."
+    },
+    {
+      "id": "a047",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Schau {andere} an und sag, wofür du in eurer Beziehung am dankbarsten bist."
+    },
+    {
+      "id": "a048",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Legt die Stirn aneinander, schließt die Augen und bleibt zwei Minuten so.",
+      "dauer": 120
+    },
+    {
+      "id": "a049",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Sprich einen Wunsch für eure Beziehung aus, den du bisher für dich behalten hast."
+    },
+    {
+      "id": "a050",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Erzähl {andere}, in welchem Moment du gemerkt hast: Bei diesem Menschen will ich bleiben."
+    },
+    {
+      "id": "a051",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Erzähl die Geschichte, wie ihr euch kennengelernt habt – so, als würdest du sie einem Fremden erzählen."
+    },
+    {
+      "id": "a052",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Erfindet einen geheimen Handschlag. Ihr habt so viel Zeit, wie ihr braucht."
+    },
+    {
+      "id": "a053",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Mach ein Selfie von euch beiden, über das ihr in zehn Jahren schmunzeln werdet."
+    },
+    {
+      "id": "a054",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Pantomime: Stell 60 Sekunden lang einen gemeinsamen Moment dar. {andere} rät.",
+      "dauer": 60
+    },
+    {
+      "id": "a055",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Nenne ein Talent von {andere}, von dem die Welt mehr sehen sollte."
+    },
+    {
+      "id": "a056",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Erzähl von einem Moment, in dem du froh warst, {andere} an deiner Seite zu haben."
+    },
+    {
+      "id": "a057",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Plant einen Tag nur für euch zwei und haltet das Datum sofort fest."
+    },
+    {
+      "id": "a058",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Sag {andere}, was du bewunderst und sonst nie laut sagst."
+    },
+    {
+      "id": "a059",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Erzähl 90 Sekunden von deinem Leben, als würdest du {andere} nach Jahren zum ersten Mal wiedersehen.",
+      "dauer": 90
+    },
+    {
+      "id": "a060",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Sag {andere}, welche Unterstützung du dir wünschst, wenn es dir einmal nicht gut geht."
+    },
+    {
+      "id": "a061",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Erzähl von einem Moment, in dem eure Freundschaft auf die Probe gestellt wurde, und was dich bleiben ließ."
+    }
+  ]
+}
