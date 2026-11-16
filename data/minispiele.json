@@ -1,1 +1,874 @@
-{"satzanfaenge": []}
+{
+  "hinweis": "Inhalte der Minispiele. Platzhalter in Texten: {dran}, {andere}.",
+  "satzanfaenge": [
+    {
+      "id": "s001",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Ich fühle mich lebendig, wenn …"
+    },
+    {
+      "id": "s002",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Ein perfekter Tag beginnt für mich mit …"
+    },
+    {
+      "id": "s003",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Als Kind habe ich geglaubt, dass …"
+    },
+    {
+      "id": "s004",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Ich lache am meisten über …"
+    },
+    {
+      "id": "s005",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Mein Lieblingsplatz auf der Welt ist …"
+    },
+    {
+      "id": "s006",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Wenn ich einen Tag ganz für mich habe, dann …"
+    },
+    {
+      "id": "s007",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Ich werde schwach bei …"
+    },
+    {
+      "id": "s008",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Ich bin heimlich stolz darauf, dass …"
+    },
+    {
+      "id": "s009",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Am Wochenende brauche ich unbedingt …"
+    },
+    {
+      "id": "s010",
+      "modus": "beide",
+      "intensitaet": 1,
+      "text": "Ich kann nicht widerstehen, wenn …"
+    },
+    {
+      "id": "s011",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Ich fühle mich verstanden, wenn …"
+    },
+    {
+      "id": "s012",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Zur Ruhe komme ich, sobald …"
+    },
+    {
+      "id": "s013",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Ich wünsche mir mehr Zeit für …"
+    },
+    {
+      "id": "s014",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Was ich mir selten eingestehe, ist …"
+    },
+    {
+      "id": "s015",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Mut bedeutet für mich …"
+    },
+    {
+      "id": "s016",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Ich fühle mich zu Hause, wenn …"
+    },
+    {
+      "id": "s017",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Am meisten gelernt habe ich aus …"
+    },
+    {
+      "id": "s018",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Ich bin dankbar, dass …"
+    },
+    {
+      "id": "s019",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Es fällt mir leicht, wenn …"
+    },
+    {
+      "id": "s020",
+      "modus": "beide",
+      "intensitaet": 2,
+      "text": "Ich brauche Abstand, wenn …"
+    },
+    {
+      "id": "s021",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Ich habe Angst davor, dass …"
+    },
+    {
+      "id": "s022",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Ich wünschte, ich könnte …"
+    },
+    {
+      "id": "s023",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Am verletzlichsten bin ich, wenn …"
+    },
+    {
+      "id": "s024",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Ich trage schon lange mit mir herum, dass …"
+    },
+    {
+      "id": "s025",
+      "modus": "beide",
+      "intensitaet": 3,
+      "text": "Ich vermisse …"
+    },
+    {
+      "id": "s026",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "An {andere} mag ich besonders, dass …"
+    },
+    {
+      "id": "s027",
+      "modus": "couple",
+      "intensitaet": 1,
+      "text": "Mit {andere} würde ich gern einmal …"
+    },
+    {
+      "id": "s028",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Ich fühle mich {andere} nah, wenn …"
+    },
+    {
+      "id": "s029",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Ich liebe es, wenn {andere} …"
+    },
+    {
+      "id": "s030",
+      "modus": "couple",
+      "intensitaet": 2,
+      "text": "Unser schönster Moment war für mich …"
+    },
+    {
+      "id": "s031",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Ich wünsche mir von {andere}, dass …"
+    },
+    {
+      "id": "s032",
+      "modus": "couple",
+      "intensitaet": 3,
+      "text": "Ich habe {andere} noch nie gesagt, dass …"
+    },
+    {
+      "id": "s033",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Mit {andere} kann ich am besten …"
+    },
+    {
+      "id": "s034",
+      "modus": "friends",
+      "intensitaet": 1,
+      "text": "Typisch {andere} ist …"
+    },
+    {
+      "id": "s035",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "An unserer Freundschaft schätze ich, dass …"
+    },
+    {
+      "id": "s036",
+      "modus": "friends",
+      "intensitaet": 2,
+      "text": "Ich bin froh, dass {andere} …"
+    },
+    {
+      "id": "s037",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Was ich mir von {andere} wünsche, ist …"
+    },
+    {
+      "id": "s038",
+      "modus": "friends",
+      "intensitaet": 3,
+      "text": "Ich wollte {andere} schon lange sagen, dass …"
+    }
+  ],
+  "assoziation": {
+    "sekunden": 8,
+    "woerter": [
+      {
+        "id": "x001",
+        "modus": "beide",
+        "wort": "Zuhause"
+      },
+      {
+        "id": "x002",
+        "modus": "beide",
+        "wort": "Meer"
+      },
+      {
+        "id": "x003",
+        "modus": "beide",
+        "wort": "Mut"
+      },
+      {
+        "id": "x004",
+        "modus": "beide",
+        "wort": "Kindheit"
+      },
+      {
+        "id": "x005",
+        "modus": "beide",
+        "wort": "Sonntag"
+      },
+      {
+        "id": "x006",
+        "modus": "beide",
+        "wort": "Stille"
+      },
+      {
+        "id": "x007",
+        "modus": "beide",
+        "wort": "Freiheit"
+      },
+      {
+        "id": "x008",
+        "modus": "beide",
+        "wort": "Regen"
+      },
+      {
+        "id": "x009",
+        "modus": "beide",
+        "wort": "Familie"
+      },
+      {
+        "id": "x010",
+        "modus": "beide",
+        "wort": "Abenteuer"
+      },
+      {
+        "id": "x011",
+        "modus": "beide",
+        "wort": "Vertrauen"
+      },
+      {
+        "id": "x012",
+        "modus": "beide",
+        "wort": "Nacht"
+      },
+      {
+        "id": "x013",
+        "modus": "beide",
+        "wort": "Zukunft"
+      },
+      {
+        "id": "x014",
+        "modus": "beide",
+        "wort": "Wärme"
+      },
+      {
+        "id": "x015",
+        "modus": "beide",
+        "wort": "Fernweh"
+      },
+      {
+        "id": "x016",
+        "modus": "beide",
+        "wort": "Glück"
+      },
+      {
+        "id": "x017",
+        "modus": "beide",
+        "wort": "Arbeit"
+      },
+      {
+        "id": "x018",
+        "modus": "beide",
+        "wort": "Musik"
+      },
+      {
+        "id": "x019",
+        "modus": "beide",
+        "wort": "Heimat"
+      },
+      {
+        "id": "x020",
+        "modus": "beide",
+        "wort": "Sommer"
+      },
+      {
+        "id": "x021",
+        "modus": "beide",
+        "wort": "Geheimnis"
+      },
+      {
+        "id": "x022",
+        "modus": "beide",
+        "wort": "Zeit"
+      },
+      {
+        "id": "x023",
+        "modus": "beide",
+        "wort": "Erfolg"
+      },
+      {
+        "id": "x024",
+        "modus": "beide",
+        "wort": "Geborgenheit"
+      },
+      {
+        "id": "x025",
+        "modus": "beide",
+        "wort": "Winter"
+      },
+      {
+        "id": "x026",
+        "modus": "beide",
+        "wort": "Wald"
+      },
+      {
+        "id": "x027",
+        "modus": "beide",
+        "wort": "Stadt"
+      },
+      {
+        "id": "x028",
+        "modus": "beide",
+        "wort": "Traum"
+      },
+      {
+        "id": "x029",
+        "modus": "beide",
+        "wort": "Mutter"
+      },
+      {
+        "id": "x030",
+        "modus": "beide",
+        "wort": "Vater"
+      },
+      {
+        "id": "x031",
+        "modus": "beide",
+        "wort": "Schule"
+      },
+      {
+        "id": "x032",
+        "modus": "beide",
+        "wort": "Urlaub"
+      },
+      {
+        "id": "x033",
+        "modus": "beide",
+        "wort": "Küche"
+      },
+      {
+        "id": "x034",
+        "modus": "beide",
+        "wort": "Lachen"
+      },
+      {
+        "id": "x035",
+        "modus": "beide",
+        "wort": "Abschied"
+      },
+      {
+        "id": "x036",
+        "modus": "beide",
+        "wort": "Anfang"
+      },
+      {
+        "id": "x037",
+        "modus": "beide",
+        "wort": "Geld"
+      },
+      {
+        "id": "x038",
+        "modus": "beide",
+        "wort": "Ruhe"
+      },
+      {
+        "id": "x039",
+        "modus": "beide",
+        "wort": "Tanzen"
+      },
+      {
+        "id": "x040",
+        "modus": "beide",
+        "wort": "Liebe"
+      },
+      {
+        "id": "x041",
+        "modus": "beide",
+        "wort": "Freundschaft"
+      },
+      {
+        "id": "x042",
+        "modus": "beide",
+        "wort": "Sehnsucht"
+      },
+      {
+        "id": "x043",
+        "modus": "beide",
+        "wort": "Feierabend"
+      },
+      {
+        "id": "x044",
+        "modus": "beide",
+        "wort": "Geburtstag"
+      },
+      {
+        "id": "x045",
+        "modus": "beide",
+        "wort": "Garten"
+      },
+      {
+        "id": "x046",
+        "modus": "beide",
+        "wort": "Morgen"
+      },
+      {
+        "id": "x047",
+        "modus": "beide",
+        "wort": "Brief"
+      },
+      {
+        "id": "x048",
+        "modus": "beide",
+        "wort": "Reise"
+      },
+      {
+        "id": "x049",
+        "modus": "couple",
+        "wort": "Kuss"
+      },
+      {
+        "id": "x050",
+        "modus": "couple",
+        "wort": "Erstes Date"
+      },
+      {
+        "id": "x051",
+        "modus": "couple",
+        "wort": "Wir"
+      },
+      {
+        "id": "x052",
+        "modus": "friends",
+        "wort": "Clique"
+      },
+      {
+        "id": "x053",
+        "modus": "friends",
+        "wort": "Kennenlernen"
+      },
+      {
+        "id": "x054",
+        "modus": "friends",
+        "wort": "Spitzname"
+      }
+    ]
+  },
+  "geschichten": [
+    {
+      "id": "weg",
+      "titel": "Der Weg",
+      "bild": "story-weg",
+      "text": "Ein Spaziergang in Gedanken, vorbei an Tier, Schlüssel und Wasser.",
+      "schritte": [
+        {
+          "stichwort": "Der Weg",
+          "text": "Du gehst einen Weg entlang. Wie sieht er aus? Ist er breit oder schmal, gerade oder verschlungen?",
+          "deutung": "Der Weg kann dafür stehen, wie du deinen Lebensweg gerade erlebst."
+        },
+        {
+          "stichwort": "Die Begleitung",
+          "text": "Du bist nicht allein unterwegs. Wer geht neben dir?",
+          "deutung": "Wer dir zuerst einfällt, ist dir im Moment vielleicht besonders wichtig."
+        },
+        {
+          "stichwort": "Das Tier",
+          "text": "Am Wegrand begegnet dir ein Tier. Welches ist es, und wie verhält es sich?",
+          "deutung": "Das Tier kann zeigen, wie du mit dem umgehst, was dir unerwartet begegnet."
+        },
+        {
+          "stichwort": "Der Schlüssel",
+          "text": "Auf dem Boden liegt ein Schlüssel. Wie sieht er aus, und was machst du mit ihm?",
+          "deutung": "Der Schlüssel kann für Chancen stehen: Hebst du sie auf, bewahrst du sie, lässt du sie liegen?"
+        },
+        {
+          "stichwort": "Das Wasser",
+          "text": "Vor dir liegt ein Gewässer. Ist es ein Bach, ein See, das Meer? Gehst du hinüber, hinein oder bleibst du am Ufer?",
+          "deutung": "Das Wasser kann für deine Gefühle stehen: wie tief sie sind und wie du dich ihnen näherst."
+        },
+        {
+          "stichwort": "Das Ziel",
+          "text": "Am Ende des Weges kommst du an einem Ort an. Wie sieht er aus, und wie fühlst du dich dort?",
+          "deutung": "Der Ort am Ende kann zeigen, wonach du dich gerade sehnst."
+        }
+      ]
+    },
+    {
+      "id": "haus",
+      "titel": "Das Haus",
+      "bild": "story-haus",
+      "text": "Ein Haus, das ganz dir gehört, Zimmer für Zimmer.",
+      "schritte": [
+        {
+          "stichwort": "Von außen",
+          "text": "Stell dir ein Haus vor, das ganz dir gehört. Wo steht es, und wie sieht es von außen aus?",
+          "deutung": "Das Äußere kann zeigen, wie du dich anderen Menschen zeigst."
+        },
+        {
+          "stichwort": "Der erste Eindruck",
+          "text": "Du öffnest die Tür und trittst ein. Was nimmst du als Erstes wahr: Licht, Geruch, Geräusche?",
+          "deutung": "Der erste Eindruck kann zeigen, was dir Geborgenheit gibt."
+        },
+        {
+          "stichwort": "Der Lieblingsraum",
+          "text": "Welcher Raum ist dein liebster, und was machst du dort?",
+          "deutung": "Dein Lieblingsraum kann für das stehen, was dir im Leben Kraft gibt."
+        },
+        {
+          "stichwort": "Das stille Zimmer",
+          "text": "Es gibt ein Zimmer, das du selten betrittst. Was ist darin?",
+          "deutung": "Dieses Zimmer kann für etwas stehen, das du dir für später aufhebst oder noch nicht ansehen magst."
+        },
+        {
+          "stichwort": "Das Geschenk",
+          "text": "Auf dem Tisch liegt etwas, das jemand für dich dagelassen hat. Was ist es, und von wem?",
+          "deutung": "Das Geschenk kann zeigen, was du dir von anderen wünschst."
+        },
+        {
+          "stichwort": "Der Blick hinaus",
+          "text": "Du schaust aus dem größten Fenster. Was siehst du draußen?",
+          "deutung": "Der Blick hinaus kann für deine Sicht auf die Zukunft stehen."
+        }
+      ]
+    },
+    {
+      "id": "tuer",
+      "titel": "Die Tür",
+      "bild": "story-tuer",
+      "text": "Eine unbekannte Tür und das, was dahinter wartet.",
+      "schritte": [
+        {
+          "stichwort": "Die Tür",
+          "text": "Du stehst vor einer Tür, die du noch nie gesehen hast. Wie sieht sie aus?",
+          "deutung": "Die Tür kann für etwas Neues stehen, das in deinem Leben gerade anklopft."
+        },
+        {
+          "stichwort": "Die Klinke",
+          "text": "Du legst die Hand auf die Klinke. Was fühlst du in diesem Moment: Neugier, Zögern, Vorfreude?",
+          "deutung": "Dein Gefühl an der Klinke kann zeigen, wie du Veränderungen begegnest."
+        },
+        {
+          "stichwort": "Dahinter",
+          "text": "Die Tür öffnet sich. Was liegt dahinter?",
+          "deutung": "Was du siehst, kann für einen Wunsch stehen, der gerade wach wird."
+        },
+        {
+          "stichwort": "Die Begegnung",
+          "text": "Jemand wartet dort auf dich. Wer ist es, und was sagt diese Person als Erstes?",
+          "deutung": "Die Worte können etwas sein, das du gern einmal hören würdest."
+        },
+        {
+          "stichwort": "Das Mitbringsel",
+          "text": "Du darfst eine Sache von hier mitnehmen. Was wählst du?",
+          "deutung": "Was du mitnimmst, kann zeigen, was du gerade brauchst."
+        },
+        {
+          "stichwort": "Das Zurückgelassene",
+          "text": "Bevor du gehst, lässt du etwas zurück. Was ist es?",
+          "deutung": "Was du zurücklässt, kann für etwas stehen, das du loslassen möchtest."
+        }
+      ]
+    }
+  ],
+  "zukunftsbild": [
+    {
+      "id": "z-paar",
+      "modus": "couple",
+      "titel": "Ein Samstag in fünf Jahren",
+      "text": "Ein gemeinsames Bild von eurem Alltag in der Zukunft.",
+      "schritte": [
+        "Schließt kurz die Augen. Es ist ein ganz normaler Samstag in fünf Jahren. Wo wacht ihr auf?",
+        "Wie sieht euer Morgen aus? Wer macht was, und wie fühlt es sich an?",
+        "Was habt ihr in den letzten fünf Jahren gemeinsam geschafft, auf das ihr stolz seid?",
+        "Wer gehört zu eurem Leben? Wer sitzt abends mit am Tisch?",
+        "Welche Gewohnheit von heute habt ihr behalten, und welche habt ihr losgelassen?",
+        "Was ist ein erster kleiner Schritt in Richtung dieses Bildes, den ihr diese Woche gehen könnt?"
+      ]
+    },
+    {
+      "id": "z-freunde",
+      "modus": "friends",
+      "titel": "Ein Wiedersehen in zehn Jahren",
+      "text": "Wie sieht eure Freundschaft aus, wenn viel Zeit vergangen ist?",
+      "schritte": [
+        "Schließt kurz die Augen. In zehn Jahren trefft ihr euch an einem besonderen Ort. Wo seid ihr?",
+        "Was erzählt ihr euch als Erstes? Was hat sich in eurem Leben verändert?",
+        "Was habt ihr in der Zwischenzeit zusammen erlebt, über das ihr noch immer lacht?",
+        "Worin habt ihr euch gegenseitig unterstützt?",
+        "Was ist an eurer Freundschaft genau so geblieben, wie es heute ist?",
+        "Was könnt ihr schon dieses Jahr tun, damit es dieses Wiedersehen gibt?"
+      ]
+    },
+    {
+      "id": "z-brief",
+      "modus": "beide",
+      "titel": "Der Brief aus der Zukunft",
+      "text": "Jede Person stellt sich einen Brief vom eigenen zukünftigen Ich vor.",
+      "schritte": [
+        "Stell dir vor, dein zukünftiges Ich schreibt dir in zehn Jahren einen Brief. Wo sitzt es beim Schreiben?",
+        "Wofür bedankt sich dein zukünftiges Ich bei dir?",
+        "Welche Sorge von heute nimmt es dir mit einem Lächeln?",
+        "Wozu ermutigt es dich?",
+        "Welchen einen Satz unterstreicht es doppelt?",
+        "Was möchtest du deinem zukünftigen Ich antworten?"
+      ]
+    }
+  ],
+  "gefuehlsrad": {
+    "gefuehle": [
+      {
+        "name": "Freude",
+        "feiner": [
+          "fröhlich",
+          "dankbar",
+          "stolz",
+          "begeistert",
+          "erleichtert"
+        ]
+      },
+      {
+        "name": "Zuneigung",
+        "feiner": [
+          "verbunden",
+          "liebevoll",
+          "vertraut",
+          "zärtlich",
+          "geborgen"
+        ]
+      },
+      {
+        "name": "Ruhe",
+        "feiner": [
+          "gelassen",
+          "zufrieden",
+          "entspannt",
+          "sicher",
+          "klar"
+        ]
+      },
+      {
+        "name": "Neugier",
+        "feiner": [
+          "gespannt",
+          "wach",
+          "offen",
+          "verspielt",
+          "inspiriert"
+        ]
+      },
+      {
+        "name": "Traurigkeit",
+        "feiner": [
+          "wehmütig",
+          "einsam",
+          "enttäuscht",
+          "verletzt",
+          "leer"
+        ]
+      },
+      {
+        "name": "Angst",
+        "feiner": [
+          "unsicher",
+          "nervös",
+          "besorgt",
+          "überfordert",
+          "angespannt"
+        ]
+      },
+      {
+        "name": "Ärger",
+        "feiner": [
+          "genervt",
+          "frustriert",
+          "ungeduldig",
+          "gekränkt",
+          "wütend"
+        ]
+      },
+      {
+        "name": "Müdigkeit",
+        "feiner": [
+          "erschöpft",
+          "träge",
+          "ausgelaugt",
+          "reizüberflutet",
+          "abwesend"
+        ]
+      }
+    ],
+    "impulse": [
+      "Magst du erzählen, woher das Gefühl kommt?",
+      "Wo im Körper spürst du es gerade?",
+      "Was würde dir damit jetzt guttun?",
+      "Seit wann begleitet dich dieses Gefühl heute?"
+    ]
+  },
+  "rosedornknospe": {
+    "teile": [
+      {
+        "id": "rose",
+        "titel": "Rose",
+        "untertitel": "Etwas Schönes",
+        "fragen": [
+          "Was war heute dein schönster Moment?",
+          "Was ist dir in dieser Woche gut gelungen?",
+          "Worüber hast du dich zuletzt gefreut?"
+        ]
+      },
+      {
+        "id": "dorn",
+        "titel": "Dorn",
+        "untertitel": "Etwas Schweres",
+        "fragen": [
+          "Was war heute anstrengend für dich?",
+          "Was hat dich in dieser Woche geärgert oder belastet?",
+          "Was lief zuletzt anders, als du es dir gewünscht hast?"
+        ]
+      },
+      {
+        "id": "knospe",
+        "titel": "Knospe",
+        "untertitel": "Etwas, das wächst",
+        "fragen": [
+          "Worauf freust du dich in den nächsten Tagen?",
+          "Was möchtest du bald ausprobieren?",
+          "Welcher kleine Anfang liegt gerade vor dir?"
+        ]
+      }
+    ]
+  },
+  "spiegeln": {
+    "sekunden": 60,
+    "themen": [
+      {
+        "id": "t001",
+        "modus": "beide",
+        "intensitaet": 1,
+        "text": "Etwas, das dir diese Woche gutgetan hat"
+      },
+      {
+        "id": "t002",
+        "modus": "beide",
+        "intensitaet": 1,
+        "text": "Ein Ort, an dem du jetzt gern wärst"
+      },
+      {
+        "id": "t003",
+        "modus": "beide",
+        "intensitaet": 1,
+        "text": "Etwas, das du gerade lernst"
+      },
+      {
+        "id": "t004",
+        "modus": "beide",
+        "intensitaet": 2,
+        "text": "Etwas, das dich gerade beschäftigt"
+      },
+      {
+        "id": "t005",
+        "modus": "beide",
+        "intensitaet": 2,
+        "text": "Ein Wunsch für die nächsten Monate"
+      },
+      {
+        "id": "t006",
+        "modus": "beide",
+        "intensitaet": 2,
+        "text": "Etwas, wovon du gern mehr hättest"
+      },
+      {
+        "id": "t007",
+        "modus": "beide",
+        "intensitaet": 2,
+        "text": "Eine Entscheidung, die vor dir liegt"
+      },
+      {
+        "id": "t008",
+        "modus": "beide",
+        "intensitaet": 3,
+        "text": "Etwas, das dir gerade Sorgen macht"
+      },
+      {
+        "id": "t009",
+        "modus": "beide",
+        "intensitaet": 3,
+        "text": "Etwas, das du dir von anderen wünschst"
+      },
+      {
+        "id": "t010",
+        "modus": "couple",
+        "intensitaet": 2,
+        "text": "Etwas, das du an eurem Alltag magst"
+      },
+      {
+        "id": "t011",
+        "modus": "couple",
+        "intensitaet": 3,
+        "text": "Etwas, das du dir in eurer Beziehung wünschst"
+      },
+      {
+        "id": "t012",
+        "modus": "friends",
+        "intensitaet": 2,
+        "text": "Etwas, das dir an eurer Freundschaft wichtig ist"
+      }
+    ]
+  },
+  "atem": {
+    "einatmen": 4,
+    "ausatmen": 6,
+    "atemzuege": 6
+  }
+}

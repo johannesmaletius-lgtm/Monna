@@ -1,1 +1,616 @@
-{"sets": []}
+{
+  "hinweis": "art: dinge, figuren (erfunden) oder promis (reale Personen, nur im Modus friends).",
+  "optionen": [
+    {
+      "id": "heiraten",
+      "name": "Heiraten",
+      "text": "für immer behalten"
+    },
+    {
+      "id": "kuessen",
+      "name": "Küssen",
+      "text": "ab und zu genießen"
+    },
+    {
+      "id": "weg",
+      "name": "Weg damit",
+      "text": "darauf verzichten"
+    }
+  ],
+  "sets": [
+    {
+      "id": "h001",
+      "thema": "Frühstück",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Croissant",
+        "Müsli",
+        "Rührei"
+      ]
+    },
+    {
+      "id": "h002",
+      "thema": "Urlaub",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Strand",
+        "Berge",
+        "Großstadt"
+      ]
+    },
+    {
+      "id": "h003",
+      "thema": "Abendprogramm",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Kino",
+        "Konzert",
+        "Spieleabend"
+      ]
+    },
+    {
+      "id": "h004",
+      "thema": "Süßes",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Schokolade",
+        "Gummibärchen",
+        "Eis"
+      ]
+    },
+    {
+      "id": "h005",
+      "thema": "Italienische Küche",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Pizza",
+        "Pasta",
+        "Risotto"
+      ]
+    },
+    {
+      "id": "h006",
+      "thema": "Jahreszeiten",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Frühling",
+        "Sommer",
+        "Herbst"
+      ]
+    },
+    {
+      "id": "h007",
+      "thema": "Haustiere",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Hund",
+        "Katze",
+        "Kaninchen"
+      ]
+    },
+    {
+      "id": "h008",
+      "thema": "Unterwegs",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Fahrrad",
+        "Auto",
+        "Zug"
+      ]
+    },
+    {
+      "id": "h009",
+      "thema": "Heißgetränke",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Kaffee",
+        "Tee",
+        "Kakao"
+      ]
+    },
+    {
+      "id": "h010",
+      "thema": "Bewegung",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Schwimmen",
+        "Laufen",
+        "Yoga"
+      ]
+    },
+    {
+      "id": "h011",
+      "thema": "Wohnen",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Stadtwohnung",
+        "Haus am See",
+        "Berghütte"
+      ]
+    },
+    {
+      "id": "h012",
+      "thema": "Musik",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Pop",
+        "Rock",
+        "Klassik"
+      ]
+    },
+    {
+      "id": "h013",
+      "thema": "Wochenende",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Ausschlafen",
+        "Brunch",
+        "Wandern"
+      ]
+    },
+    {
+      "id": "h014",
+      "thema": "Filmabend",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Komödie",
+        "Krimi",
+        "Liebesfilm"
+      ]
+    },
+    {
+      "id": "h015",
+      "thema": "Kartoffeln",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Pommes",
+        "Bratkartoffeln",
+        "Kartoffelbrei"
+      ]
+    },
+    {
+      "id": "h016",
+      "thema": "Übernachten",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Zelt",
+        "Hotel",
+        "Ferienwohnung"
+      ]
+    },
+    {
+      "id": "h017",
+      "thema": "Am Handy",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Fotos machen",
+        "Musik hören",
+        "Nachrichten schreiben"
+      ]
+    },
+    {
+      "id": "h018",
+      "thema": "Spiele",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Schach",
+        "Kartenspiele",
+        "Puzzle"
+      ]
+    },
+    {
+      "id": "h019",
+      "thema": "Wetter",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Sonnenschein",
+        "Schneefall",
+        "Sommerregen"
+      ]
+    },
+    {
+      "id": "h020",
+      "thema": "Hausarbeit",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Kochen",
+        "Abwaschen",
+        "Staubsaugen"
+      ]
+    },
+    {
+      "id": "h021",
+      "thema": "Obst",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Erdbeeren",
+        "Mango",
+        "Äpfel"
+      ]
+    },
+    {
+      "id": "h022",
+      "thema": "Tageszeiten",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Morgen",
+        "Nachmittag",
+        "Nacht"
+      ]
+    },
+    {
+      "id": "h023",
+      "thema": "Kleidung",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Jogginghose",
+        "Jeans",
+        "Abendgarderobe"
+      ]
+    },
+    {
+      "id": "h024",
+      "thema": "Superkräfte",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Fliegen",
+        "Unsichtbarkeit",
+        "Gedankenlesen"
+      ]
+    },
+    {
+      "id": "h025",
+      "thema": "Feste",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Weihnachten",
+        "Geburtstag",
+        "Silvester"
+      ]
+    },
+    {
+      "id": "h026",
+      "thema": "Brotbelag",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Käse",
+        "Marmelade",
+        "Nuss-Nougat-Creme"
+      ]
+    },
+    {
+      "id": "h027",
+      "thema": "Etwas Neues lernen",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Eine Sprache",
+        "Ein Instrument",
+        "Ein Handwerk"
+      ]
+    },
+    {
+      "id": "h028",
+      "thema": "Am Wasser",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Meer",
+        "See",
+        "Fluss"
+      ]
+    },
+    {
+      "id": "h029",
+      "thema": "Knabbereien",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Chips",
+        "Popcorn",
+        "Nüsse"
+      ]
+    },
+    {
+      "id": "h030",
+      "thema": "Entspannung",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Badewanne",
+        "Sauna",
+        "Mittagsschlaf"
+      ]
+    },
+    {
+      "id": "h031",
+      "thema": "Geschichten",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Buch",
+        "Podcast",
+        "Serie"
+      ]
+    },
+    {
+      "id": "h032",
+      "thema": "Eissorten",
+      "art": "dinge",
+      "modus": "beide",
+      "dinge": [
+        "Vanille",
+        "Schokolade",
+        "Erdbeere"
+      ]
+    },
+    {
+      "id": "h033",
+      "thema": "Date-Ideen",
+      "art": "dinge",
+      "modus": "couple",
+      "dinge": [
+        "Picknick",
+        "Tanzabend",
+        "Kochabend"
+      ]
+    },
+    {
+      "id": "h034",
+      "thema": "Kleine Gesten",
+      "art": "dinge",
+      "modus": "couple",
+      "dinge": [
+        "Liebesbrief",
+        "Blumenstrauß",
+        "Frühstück ans Bett"
+      ]
+    },
+    {
+      "id": "h035",
+      "thema": "Zeit zu zweit",
+      "art": "dinge",
+      "modus": "couple",
+      "dinge": [
+        "Kuscheln",
+        "Tanzen",
+        "Reden bis in die Nacht"
+      ]
+    },
+    {
+      "id": "h036",
+      "thema": "Jahrestag",
+      "art": "dinge",
+      "modus": "couple",
+      "dinge": [
+        "Wochenendtrip",
+        "Schickes Abendessen",
+        "Abend zu Hause"
+      ]
+    },
+    {
+      "id": "h037",
+      "thema": "Superhelden",
+      "art": "figuren",
+      "modus": "beide",
+      "dinge": [
+        "Superman",
+        "Batman",
+        "Spider-Man"
+      ]
+    },
+    {
+      "id": "h038",
+      "thema": "Zauberwelt",
+      "art": "figuren",
+      "modus": "beide",
+      "dinge": [
+        "Harry Potter",
+        "Hermine Granger",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "id": "h039",
+      "thema": "Mittelerde",
+      "art": "figuren",
+      "modus": "beide",
+      "dinge": [
+        "Aragorn",
+        "Legolas",
+        "Gandalf"
+      ]
+    },
+    {
+      "id": "h040",
+      "thema": "Märchen",
+      "art": "figuren",
+      "modus": "beide",
+      "dinge": [
+        "Aschenputtel",
+        "Schneewittchen",
+        "Rapunzel"
+      ]
+    },
+    {
+      "id": "h041",
+      "thema": "Entenhausen",
+      "art": "figuren",
+      "modus": "beide",
+      "dinge": [
+        "Donald Duck",
+        "Micky Maus",
+        "Goofy"
+      ]
+    },
+    {
+      "id": "h042",
+      "thema": "Abenteurer",
+      "art": "figuren",
+      "modus": "beide",
+      "dinge": [
+        "James Bond",
+        "Indiana Jones",
+        "Sherlock Holmes"
+      ]
+    },
+    {
+      "id": "h043",
+      "thema": "Hollywood",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "George Clooney",
+        "Brad Pitt",
+        "Leonardo DiCaprio"
+      ]
+    },
+    {
+      "id": "h044",
+      "thema": "Leinwand",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Julia Roberts",
+        "Jennifer Lawrence",
+        "Emma Watson"
+      ]
+    },
+    {
+      "id": "h045",
+      "thema": "Pop",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Taylor Swift",
+        "Beyoncé",
+        "Adele"
+      ]
+    },
+    {
+      "id": "h046",
+      "thema": "Charts",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Ed Sheeran",
+        "Harry Styles",
+        "Justin Timberlake"
+      ]
+    },
+    {
+      "id": "h047",
+      "thema": "Fußball",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Thomas Müller"
+      ]
+    },
+    {
+      "id": "h048",
+      "thema": "Fernsehen",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Thomas Gottschalk",
+        "Günther Jauch",
+        "Barbara Schöneberger"
+      ]
+    },
+    {
+      "id": "h049",
+      "thema": "Musiklegenden",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Elvis Presley",
+        "Freddie Mercury",
+        "David Bowie"
+      ]
+    },
+    {
+      "id": "h050",
+      "thema": "Kino",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Tom Hanks",
+        "Keanu Reeves",
+        "Ryan Gosling"
+      ]
+    },
+    {
+      "id": "h051",
+      "thema": "Schauspiel",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Meryl Streep",
+        "Zendaya",
+        "Margot Robbie"
+      ]
+    },
+    {
+      "id": "h052",
+      "thema": "Tennis",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Roger Federer",
+        "Steffi Graf",
+        "Serena Williams"
+      ]
+    },
+    {
+      "id": "h053",
+      "thema": "Deutschpop",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Helene Fischer",
+        "Herbert Grönemeyer",
+        "Nena"
+      ]
+    },
+    {
+      "id": "h054",
+      "thema": "Humor",
+      "art": "promis",
+      "modus": "friends",
+      "dinge": [
+        "Hape Kerkeling",
+        "Anke Engelke",
+        "Otto Waalkes"
+      ]
+    }
+  ]
+}

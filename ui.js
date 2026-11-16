@@ -175,6 +175,7 @@
       if (id || rest <= 0) return;
       ende = Date.now() + rest;
       id = setInterval(tick, 200);
+      beimVerlassen(stop);
     }
     function stop() {
       if (!id) return;
@@ -182,7 +183,6 @@
       id = null;
       rest = Math.max(0, ende - Date.now());
     }
-    beimVerlassen(stop);
     return { el, start, stop, laeuft: () => !!id, fertig: () => rest <= 0 };
   }
 
@@ -287,6 +287,7 @@
   /** Abschluss eines Spiels: ein Dank, kein Ergebnis. */
   function ende(opt) {
     const o = opt || {};
+    aufraeumen();
     fortschritt(null);
     seite('ende', {
       kopf: kopf({ schliessen: zurueck }),
@@ -299,6 +300,7 @@
   }
 
   function leer(text) {
+    aufraeumen();
     fortschritt(null);
     seite('leer', {
       kopf: kopf({ zurueck }),

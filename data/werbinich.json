@@ -1,1 +1,511 @@
-{"figuren": []}
+{
+  "hinweis": "art: fiktiv (erfundene Figur), real (echte Person), rolle (Typ oder Sagengestalt).",
+  "fragen": [
+    "Bin ich ein Mensch?",
+    "Gibt es mich wirklich?",
+    "Lebe ich noch?",
+    "Kennt man mich aus Büchern oder Filmen?",
+    "Bin ich älter als hundert Jahre?",
+    "Würdest du gern einen Tag mit mir verbringen?"
+  ],
+  "figuren": [
+    {
+      "id": "f001",
+      "name": "Rotkäppchen",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f002",
+      "name": "Aschenputtel",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f003",
+      "name": "Schneewittchen",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f004",
+      "name": "Rapunzel",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f005",
+      "name": "Pippi Langstrumpf",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f006",
+      "name": "Pinocchio",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f007",
+      "name": "Peter Pan",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f008",
+      "name": "Robin Hood",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f009",
+      "name": "Sherlock Holmes",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f010",
+      "name": "Harry Potter",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f011",
+      "name": "Hermine Granger",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f012",
+      "name": "Gandalf",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f013",
+      "name": "Frodo",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f014",
+      "name": "Dracula",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f015",
+      "name": "Der kleine Prinz",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f016",
+      "name": "Alice im Wunderland",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f017",
+      "name": "Winnetou",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f018",
+      "name": "Biene Maja",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f019",
+      "name": "Pumuckl",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f020",
+      "name": "Micky Maus",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f021",
+      "name": "Donald Duck",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f022",
+      "name": "Asterix",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f023",
+      "name": "Obelix",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f024",
+      "name": "Tarzan",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f025",
+      "name": "James Bond",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f026",
+      "name": "Darth Vader",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f027",
+      "name": "Yoda",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f028",
+      "name": "Superman",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f029",
+      "name": "Batman",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f030",
+      "name": "Spider-Man",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f031",
+      "name": "Wonder Woman",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f032",
+      "name": "Homer Simpson",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f033",
+      "name": "Shrek",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f034",
+      "name": "Mary Poppins",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f035",
+      "name": "Indiana Jones",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f036",
+      "name": "Heidi",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f037",
+      "name": "Zorro",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f038",
+      "name": "Elsa aus „Die Eiskönigin“",
+      "art": "fiktiv",
+      "modus": "beide"
+    },
+    {
+      "id": "f039",
+      "name": "Albert Einstein",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f040",
+      "name": "Marie Curie",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f041",
+      "name": "Wolfgang Amadeus Mozart",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f042",
+      "name": "Ludwig van Beethoven",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f043",
+      "name": "Leonardo da Vinci",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f044",
+      "name": "Kleopatra",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f045",
+      "name": "Napoleon Bonaparte",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f046",
+      "name": "Johann Wolfgang von Goethe",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f047",
+      "name": "William Shakespeare",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f048",
+      "name": "Frida Kahlo",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f049",
+      "name": "Pablo Picasso",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f050",
+      "name": "Vincent van Gogh",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f051",
+      "name": "Charlie Chaplin",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f052",
+      "name": "Marilyn Monroe",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f053",
+      "name": "Elvis Presley",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f054",
+      "name": "Freddie Mercury",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f055",
+      "name": "Astrid Lindgren",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f056",
+      "name": "Neil Armstrong",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f057",
+      "name": "Mahatma Gandhi",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f058",
+      "name": "Nelson Mandela",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f059",
+      "name": "Queen Elizabeth II.",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f060",
+      "name": "Kaiserin Sisi",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f061",
+      "name": "Galileo Galilei",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f062",
+      "name": "Christoph Kolumbus",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f063",
+      "name": "Coco Chanel",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f064",
+      "name": "Audrey Hepburn",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f065",
+      "name": "Jane Goodall",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f066",
+      "name": "Charles Darwin",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f067",
+      "name": "Johannes Gutenberg",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f068",
+      "name": "Julius Caesar",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f069",
+      "name": "Agatha Christie",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f070",
+      "name": "Loriot",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f071",
+      "name": "Steffi Graf",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f072",
+      "name": "Taylor Swift",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f073",
+      "name": "Lionel Messi",
+      "art": "real",
+      "modus": "beide"
+    },
+    {
+      "id": "f074",
+      "name": "Weihnachtsmann",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f075",
+      "name": "Osterhase",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f076",
+      "name": "Zahnfee",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f077",
+      "name": "Piratin",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f078",
+      "name": "Astronaut",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f079",
+      "name": "Zauberer",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f080",
+      "name": "Meerjungfrau",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f081",
+      "name": "Ritter",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f082",
+      "name": "Detektivin",
+      "art": "rolle",
+      "modus": "beide"
+    },
+    {
+      "id": "f083",
+      "name": "Zirkusclown",
+      "art": "rolle",
+      "modus": "beide"
+    }
+  ]
+}
