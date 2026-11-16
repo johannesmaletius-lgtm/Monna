@@ -525,9 +525,8 @@
     while (max - min > 2) {
       const mitte = (min + max) / 2;
       el.style.fontSize = mitte + 'px';
-      // etwas Luft lassen, damit Unterlängen und Ränder frei bleiben
-      const passt = Math.max(el.scrollWidth, el.offsetWidth) <= kasten.clientWidth * 0.92 &&
-        el.offsetHeight <= kasten.clientHeight * 0.86;
+      // .stirn__term ist per CSS schmaler als die Bühne; etwas Höhe bleibt für Unterlängen frei
+      const passt = el.scrollWidth <= el.clientWidth + 1 && el.offsetHeight <= kasten.clientHeight * 0.8;
       if (passt) min = mitte; else max = mitte;
     }
     el.style.fontSize = min + 'px';

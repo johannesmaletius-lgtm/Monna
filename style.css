@@ -805,6 +805,7 @@ textarea.field__input { min-height: 5.5rem; resize: none; line-height: 1.4; }
   font-family: var(--font-serif);
   font-size: 96px;           /* wird von minigames.js passend skaliert */
   line-height: 1.1;
+  max-width: 92%;
   text-align: center;
   overflow-wrap: normal;
 }

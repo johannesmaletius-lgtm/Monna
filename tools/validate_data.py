@@ -309,7 +309,11 @@ def pruefe_dateien():
     if not sw.exists():
         hinweise.append("sw.js noch nicht vorhanden – Offline-Liste nicht geprüft")
         return len(namen)
-    gelistet = set(re.findall(r"'([^']+\.[a-z0-9]+)'", sw.read_text(encoding="utf-8").split("];")[0]))
+    block = re.search(r"const ASSETS = \[(.*?)\];", sw.read_text(encoding="utf-8"), re.S)
+    if not block:
+        melde("sw.js", "-", "Liste ASSETS nicht gefunden")
+        return len(namen)
+    gelistet = {p for p in re.findall(r"'([^']+)'", block.group(1)) if p != "./"}
     for pfad in sorted(gelistet):
         if not (ROOT / pfad).exists():
             melde("sw.js", pfad, "steht in der Offline-Liste, existiert aber nicht")
