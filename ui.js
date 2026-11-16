@@ -254,23 +254,53 @@
     Game.laden().then(() => routen[name](params), () => fehler());
   }
 
+  /* Eigener Verlauf als Quelle der Wahrheit. Die Browser-History läuft mit, damit die
+   * Zurück-Geste funktioniert; wo sie gesperrt ist (z. B. eingebettete Ansicht), geht
+   * alles auch ohne sie. */
+  const verlauf = [];
+  let historieNutzbar = true;
+  const gleich = (a, b) => !!a && !!b && a.name === b.name && JSON.stringify(a.params || {}) === JSON.stringify(b.params || {});
+
   function gehe(name, params, opt) {
     const eintrag = { name, params: params || {} };
-    if (opt && opt.ersetzen) history.replaceState(eintrag, '');
-    else history.pushState(eintrag, '');
+    const ersetzen = !!(opt && opt.ersetzen);
+    if (ersetzen) verlauf.pop();
+    verlauf.push(eintrag);
+    try {
+      if (ersetzen) history.replaceState(eintrag, '');
+      else history.pushState(eintrag, '');
+    } catch (_) { historieNutzbar = false; }
     zeige(eintrag);
+  }
+
+  function schrittZurueck() {
+    verlauf.pop();
+    zeige(verlauf[verlauf.length - 1]);
   }
 
   /** Zurück zum vorherigen Screen (aus einem Spiel heraus: ins Menü bzw. zur Auswahl). */
   function zurueck() {
-    if (history.state && history.state.name && history.state.name !== 'start') history.back();
-    else gehe('start', {}, { ersetzen: true });
+    if (verlauf.length <= 1) { gehe('start', {}, { ersetzen: true }); return; }
+    const tiefe = verlauf.length;
+    let passt = false;
+    try { passt = historieNutzbar && gleich(history.state, verlauf[tiefe - 1]); } catch (_) { passt = false; }
+    if (!passt) { schrittZurueck(); return; }
+    history.back();
+    // Falls die Umgebung das Zurückgehen verschluckt, nach kurzer Zeit selbst wechseln.
+    setTimeout(() => {
+      if (verlauf.length === tiefe) { historieNutzbar = false; schrittZurueck(); }
+    }, 400);
   }
 
   /** Aktuellen Screen neu aufbauen, z. B. für „Noch eine Runde“. */
-  const neuStarten = () => zeige(history.state);
+  const neuStarten = () => zeige(verlauf[verlauf.length - 1]);
 
-  window.addEventListener('popstate', ereignis => zeige(ereignis.state));
+  window.addEventListener('popstate', ereignis => {
+    const ziel = ereignis.state;
+    if (verlauf.length > 1 && (!ziel || gleich(ziel, verlauf[verlauf.length - 2]))) verlauf.pop();
+    else if (ziel && ziel.name && !gleich(ziel, verlauf[verlauf.length - 1])) verlauf.push({ name: ziel.name, params: ziel.params || {} });
+    zeige(verlauf[verlauf.length - 1]);
+  });
 
   /* ---- Allgemeine Screens ------------------------------------------------- */
 
@@ -576,14 +606,14 @@
   function serviceWorkerAnmelden() {
     if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js').catch(() => { /* ohne Offline-Modus geht es auch */ });
+      // In eingebetteten Ansichten ist der Service Worker gesperrt: dann eben ohne Offline-Modus.
+      try { navigator.serviceWorker.register('sw.js').catch(() => {}); } catch (_) { /* gesperrt */ }
     });
   }
 
   function starten() {
     Game.einstellungenLaden();
-    history.replaceState({ name: 'start', params: {} }, '');
-    zeige(history.state);
+    gehe('start', {}, { ersetzen: true });
     Game.laden().catch(() => { /* Fehler zeigt sich beim Öffnen eines Spiels */ });
   }
 

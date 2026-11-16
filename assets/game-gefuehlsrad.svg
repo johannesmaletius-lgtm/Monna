@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Platzhalter: wird später durch die fertige Grafik ersetzt (gleicher Dateiname). -->
-  <circle cx="60" cy="60" r="40"/><circle cx="60" cy="60" r="12"/><path d="M60 20v28M60 72v28M20 60h28M72 60h28M32 32l20 20M68 68l20 20M88 32L68 52M52 68L32 88" stroke="#6e6e6e"/>
+  <path d="M60 60L60.00 20.00A40 40 0 0 1 88.28 31.72z" fill="#ececec"/>
+  <path d="M60 60L88.28 31.72A40 40 0 0 1 100.00 60.00z" fill="#111111"/>
+  <path d="M60 60L100.00 60.00A40 40 0 0 1 88.28 88.28z" fill="#ececec"/>
+  <path d="M60 60L88.28 88.28A40 40 0 0 1 60.00 100.00z" fill="#ffffff"/>
+  <path d="M60 60L60.00 100.00A40 40 0 0 1 31.72 88.28z" fill="#ececec"/>
+  <path d="M60 60L31.72 88.28A40 40 0 0 1 20.00 60.00z" fill="#ffffff"/>
+  <path d="M60 60L20.00 60.00A40 40 0 0 1 31.72 31.72z" fill="#ececec"/>
+  <path d="M60 60L31.72 31.72A40 40 0 0 1 60.00 20.00z" fill="#ffffff"/>
+  <circle cx="60" cy="60" r="11" fill="#ffffff"/>
+  <path transform="translate(104 22) scale(0.9)" fill="#111111" stroke="none" d="M0-6c.8 3.600 2.400 5.200 6 6-3.600.8-5.200 2.400-6 6-.8-3.600-2.400-5.200-6-6 3.600-.8 5.200-2.400 6-6z"/> <circle cx="14" cy="100" r="1.8" fill="#111111" stroke="none"/>
 </svg>

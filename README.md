@@ -28,7 +28,7 @@ game.js         Monna.Game – Zustand, Kartenstapel ohne Wiederholung, Filter, 
 ui.js           Monna.UI   – Bausteine, Navigation, Screens, Kartenrunden
 minigames.js    Minispiele, Stirnraten, Wer bin ich?, Heiraten/Küssen/Weg damit
 data/           Inhalte als JSON
-assets/         Grafiken unter festen Dateinamen (derzeit Platzhalter)
+assets/         Grafiken unter festen Dateinamen
 fonts/          Playfair Display und Inter als WOFF2, mit Lizenztexten
 icons/          App-Icon (SVG und daraus erzeugte PNGs)
 manifest.json   Web-App-Manifest
@@ -71,8 +71,9 @@ schwarze Pillen-Buttons, Segment-Umschalter, dünner Fortschrittsbalken oben.
 
 ## Grafiken austauschen
 
-Grafiken werden nur über feste Pfade geladen. Zum Austauschen genügt es, die Datei unter
-**demselben Namen** zu ersetzen und in `sw.js` die `VERSION` zu erhöhen. An den Grafiken
+Das aktuelle Set ist ein einheitliches Linien-Set (schwarze Kontur, eine hellgraue Fläche,
+kleine Funkel-Akzente). Grafiken werden nur über feste Pfade geladen. Zum Austauschen
+genügt es, die Datei unter **demselben Namen** zu ersetzen und in `sw.js` die `VERSION` zu erhöhen. An den Grafiken
 hängt keine Logik; fehlt eine Datei, wird das Bild ausgeblendet.
 
 | Pfad | Verwendung |
@@ -86,7 +87,7 @@ hängt keine Logik; fehlt eine Datei, wird das Bild ausgeblendet.
 | `assets/empty-pause.svg` | Pause, leerer Stapel, Ladefehler |
 | `assets/icon-back.svg`, `icon-close.svg`, `icon-info.svg`, `icon-pause.svg` | Icons der Kopfzeile |
 | `assets/icon-check.svg`, `icon-next.svg`, `icon-skip.svg`, `icon-rotate.svg`, `icon-timer.svg` | Reserve, noch nicht verwendet |
-| `assets/bg-texture.png` | Hintergrund-Textur (Platzhalter ist transparent), gekachelt |
+| `assets/bg-texture.png` | Hintergrund-Textur (sehr feines Papierkorn), gekachelt |
 | `icons/icon.svg` | App-Icon; danach `node tools/make_icons.js` |
 
 Hinweise für den Designprozess:
@@ -147,6 +148,16 @@ danach zuerst aus dem Cache, während im Hintergrund aktualisiert wird. Bei jede
 `VERSION` erhöhen; neue Dateien in `ASSETS` eintragen (`validate_data.py` meldet fehlende).
 Struktur von Manifest und Service Worker folgen dem Projekt `campingplatz`.
 
+## Veröffentlichen
+
+Monna besteht nur aus statischen Dateien und läuft auf jedem Webspace mit HTTPS. Mit
+GitHub Pages: im Repository unter *Settings → Pages* als Quelle „Deploy from a branch“
+wählen, den Branch und den Ordner `/ (root)` angeben. Für ein privates Repository
+braucht Pages einen bezahlten GitHub-Plan; alternativ das Repository öffentlich stellen.
+Erst über eine solche HTTPS-Adresse funktionieren Installation, Offline-Modus und das
+Neigen beim Stirnraten. In eingebetteten Vorschauen (iframe) sind Service Worker und
+Bewegungssensoren gesperrt; dort läuft das Spiel mit Tippen.
+
 ## Daten und Privatsphäre
 
 - Antworten werden nie gespeichert. Texte aus den optionalen Schreibfeldern leben nur im
@@ -166,7 +177,7 @@ Struktur von Manifest und Service Worker folgen dem Projekt `campingplatz`.
   (© The Inter Project Authors), beide unter der
   [SIL Open Font License 1.1](https://openfontlicense.org). Lizenztexte in `fonts/`.
   Eingebettet ist jeweils der lateinische Zeichensatz als variable Schrift.
-- **Alle übrigen Inhalte, Code und Platzhalter-Grafiken** wurden für Monna erstellt.
+- **Alle übrigen Inhalte, Code und Grafiken** wurden für Monna erstellt.
 
 ## Geprüft
 
@@ -216,3 +227,6 @@ Entscheidungen, die im Auftrag offen waren:
 14. **Lizenz für Code und eigene Inhalte** ist noch nicht festgelegt; bis dahin gilt
     „alle Rechte vorbehalten“, mit Ausnahme der oben genannten CC-BY-SA-Dateien und der
     Schriften.
+15. **Grafiken:** Die Illustrationen wurden nachträglich im vorläufigen Stil der App
+    gezeichnet (Schwarz, Weiß, ein helles Grau). Ein späterer Designprozess kann sie
+    Datei für Datei ersetzen.

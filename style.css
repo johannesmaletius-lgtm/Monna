@@ -39,7 +39,7 @@
   --color-on-fg: #ffffff;          /* Text auf schwarzen Flächen */
   --color-focus: #111111;
 
-  /* Hintergrund-Textur (Platzhalter ist transparent) */
+  /* Hintergrund-Textur (sehr feines Papierkorn, gekachelt) */
   --bg-texture: url("assets/bg-texture.png");
 
   /* Schriften */
@@ -274,7 +274,7 @@ button { touch-action: manipulation; }
   mask: center / contain no-repeat;
 }
 
-/* Illustrationen (Platzhalter-Grafiken aus assets/) */
+/* Illustrationen aus assets/ */
 .illustration {
   width: 100%;
   height: var(--illustration-height);

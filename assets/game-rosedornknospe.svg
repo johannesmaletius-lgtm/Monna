@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Platzhalter: wird später durch die fertige Grafik ersetzt (gleicher Dateiname). -->
-  <path d="M60 104V48"/><circle cx="60" cy="32" r="16"/><path d="M52 32a8 8 0 0 1 16 0" stroke="#6e6e6e"/><path d="M60 78l-12-6M60 64l10-8"/><path d="M60 90c10 0 18-6 20-14-10 0-18 6-20 14z" stroke="#6e6e6e"/>
+  <circle cx="62" cy="58" r="42" fill="#ececec" stroke="none"/>
+  <path d="M60 110V54"/>
+  <path d="M60 96c9-13 21-13 28-8-5 10-17 14-28 8z" fill="#ffffff"/>
+  <path d="M60 80l-9-6 9-2M60 68l8-5-8-1"/>
+  <path d="M60 102c-9-2-15-8-17-17" />
+  <path d="M42 86c-6-4-6-11 0-16 6 5 6 12 0 16z" fill="#111111"/>
+  <circle cx="60" cy="34" r="19" fill="#ffffff"/>
+  <path d="M60 35c0-5 7-5 7 0 0 8-13 8-13-1 0-11 18-11 19 1 1 13-21 14-25 3" stroke="#6e6e6e"/>
 </svg>
