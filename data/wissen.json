@@ -1,1 +1,2087 @@
-{"karten": []}
+{
+  "quelle": "Open Trivia Database (https://opentdb.com), ins Deutsche übersetzt und bearbeitet",
+  "lizenz": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+  "karten": [
+    {
+      "id": "w-0a3fa708b7",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches Wort steht im NATO-Buchstabieralphabet für den Buchstaben M?",
+      "richtig": "Mike",
+      "falsch": [
+        "Matthew",
+        "Mark",
+        "Max"
+      ]
+    },
+    {
+      "id": "w-0e5e4d2bd8",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Linus Pauling erhielt zwei Nobelpreise: einen für Chemie und einen für …?",
+      "richtig": "Frieden",
+      "falsch": [
+        "Physik",
+        "Wirtschaft",
+        "Medizin"
+      ],
+      "info": "Chemie 1954, Frieden 1962."
+    },
+    {
+      "id": "w-1ddd2f9f85",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Aus welchem europäischen Land stammt der Gouda?",
+      "richtig": "Niederlande",
+      "falsch": [
+        "Belgien",
+        "Deutschland",
+        "Frankreich"
+      ]
+    },
+    {
+      "id": "w-1eb81f9d35",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches alkoholische Getränk wird vor allem mit Wacholderbeeren aromatisiert?",
+      "richtig": "Gin",
+      "falsch": [
+        "Wodka",
+        "Rum",
+        "Tequila"
+      ]
+    },
+    {
+      "id": "w-459021df3c",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viele Sterne hat die Flagge der Europäischen Union?",
+      "richtig": "12",
+      "falsch": [
+        "10",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "id": "w-54f7df5957",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Für welchen Architekturstil steht der Architekt Le Corbusier?",
+      "richtig": "Moderne",
+      "falsch": [
+        "Neoklassizismus",
+        "Barock",
+        "Neugotik"
+      ]
+    },
+    {
+      "id": "w-5ac7f85ef5",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie hieß die Suchmaschine Google ursprünglich?",
+      "richtig": "BackRub",
+      "falsch": [
+        "CatMassage",
+        "SearchPro",
+        "Netscape Navigator"
+      ],
+      "info": "Die Suchmaschine wertete anfangs sogenannte Backlinks aus – daher der Name."
+    },
+    {
+      "id": "w-5c974e03bd",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher Buchstabe wird im Morsealphabet durch drei Punkte dargestellt?",
+      "richtig": "S",
+      "falsch": [
+        "O",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": "w-64d5e0e05d",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie nennt man indische Gerichte, die im Lehmofen über Holzkohle gegart werden?",
+      "richtig": "Tandoori",
+      "falsch": [
+        "Biryani",
+        "Pani Puri",
+        "Tikka Masala"
+      ]
+    },
+    {
+      "id": "w-6da3d66b5b",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt der Fehlschluss, bei dem man die Person angreift statt ihrer Argumente?",
+      "richtig": "Ad hominem",
+      "falsch": [
+        "Post hoc ergo propter hoc",
+        "Tu quoque",
+        "Argumentum ad populum"
+      ]
+    },
+    {
+      "id": "w-729ef70e77",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Technik ist nach einem König benannt, der im 10. Jahrhundert über Dänemark und Norwegen herrschte?",
+      "richtig": "Bluetooth",
+      "falsch": [
+        "WLAN",
+        "GPS",
+        "Ethernet"
+      ],
+      "info": "Harald Blauzahn einte Dänemark – so wie die Technik Geräte verbinden soll."
+    },
+    {
+      "id": "w-84a13878e6",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Von wem stammt der Satz „Was mich nicht umbringt, macht mich stärker“?",
+      "richtig": "Friedrich Nietzsche",
+      "falsch": [
+        "Immanuel Kant",
+        "Kelly Clarkson",
+        "Johann Wolfgang von Goethe"
+      ]
+    },
+    {
+      "id": "w-8ff5a9a15b",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Aus wie vielen Silben besteht ein klassisches Haiku?",
+      "richtig": "17",
+      "falsch": [
+        "15",
+        "10",
+        "21"
+      ],
+      "info": "Verteilt auf drei Zeilen mit 5, 7 und 5 Silben."
+    },
+    {
+      "id": "w-90c224f408",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie nennen Seeleute den vorderen Teil eines Schiffs?",
+      "richtig": "Bug",
+      "falsch": [
+        "Heck",
+        "Backbord",
+        "Steuerbord"
+      ]
+    },
+    {
+      "id": "w-98f49ba7bb",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie heißt das erste Buch des Alten Testaments?",
+      "richtig": "Genesis",
+      "falsch": [
+        "Exodus",
+        "Levitikus",
+        "Numeri"
+      ]
+    },
+    {
+      "id": "w-a0d3317b90",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches Organ des Körpers produziert die Gallenflüssigkeit?",
+      "richtig": "Leber",
+      "falsch": [
+        "Gallenblase",
+        "Bauchspeicheldrüse",
+        "Magen"
+      ]
+    },
+    {
+      "id": "w-aaa5f767b5",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie heißt das jüdische Neujahrsfest?",
+      "richtig": "Rosch ha-Schana",
+      "falsch": [
+        "Jom Kippur",
+        "Sukkot",
+        "Chanukka"
+      ]
+    },
+    {
+      "id": "w-c9e944f721",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches Land liefert rund 40 Prozent der weltweiten Vanille?",
+      "richtig": "Madagaskar",
+      "falsch": [
+        "Indonesien",
+        "China",
+        "Mexiko"
+      ]
+    },
+    {
+      "id": "w-ea95ca539e",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welcher Kanal verbindet das Mittelmeer mit dem Roten Meer?",
+      "richtig": "Suezkanal",
+      "falsch": [
+        "Panamakanal",
+        "Sinaikanal",
+        "Karakumkanal"
+      ]
+    },
+    {
+      "id": "w-ec56aaf9c0",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche Sprache wird auf der Südhalbkugel von den meisten Menschen gesprochen?",
+      "richtig": "Portugiesisch",
+      "falsch": [
+        "Englisch",
+        "Spanisch",
+        "Französisch"
+      ]
+    },
+    {
+      "id": "w-efd4650751",
+      "kategorie": "Allgemeinwissen",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie hießen die Militärherrscher, die Japan vom 12. bis ins 19. Jahrhundert regierten?",
+      "richtig": "Shogun",
+      "falsch": [
+        "Ninja",
+        "Samurai",
+        "Shinobi"
+      ]
+    },
+    {
+      "id": "w-08f32e626d",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem Land liegen die Nazca-Linien?",
+      "richtig": "Peru",
+      "falsch": [
+        "Brasilien",
+        "Kolumbien",
+        "Ecuador"
+      ]
+    },
+    {
+      "id": "w-0c06e5a6ef",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Region in Osteuropa ist für ihre Vampirlegenden berühmt?",
+      "richtig": "Transsilvanien",
+      "falsch": [
+        "Schlesien",
+        "Makedonien",
+        "Slowakei"
+      ]
+    },
+    {
+      "id": "w-109fda62ac",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher Berg ist der höchste der Erde?",
+      "richtig": "Mount Everest",
+      "falsch": [
+        "K2",
+        "Kangchendzönga",
+        "Annapurna"
+      ]
+    },
+    {
+      "id": "w-1517cd67d4",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem westafrikanischen Land liegt die historische Stadt Timbuktu?",
+      "richtig": "Mali",
+      "falsch": [
+        "Senegal",
+        "Niger",
+        "Burkina Faso"
+      ]
+    },
+    {
+      "id": "w-1c9c3f7700",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welcher Kleinstaat liegt zwischen Frankreich und Spanien?",
+      "richtig": "Andorra",
+      "falsch": [
+        "San Marino",
+        "Vatikanstadt",
+        "Liechtenstein"
+      ]
+    },
+    {
+      "id": "w-220d3f580e",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "In welcher indischen Stadt steht das Taj Mahal?",
+      "richtig": "Agra",
+      "falsch": [
+        "Mumbai",
+        "Jaipur",
+        "Varanasi"
+      ]
+    },
+    {
+      "id": "w-3bbe1b093d",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt die Hauptstadt von Grönland?",
+      "richtig": "Nuuk",
+      "falsch": [
+        "Sisimiut",
+        "Narsaq",
+        "Maniitsoq"
+      ]
+    },
+    {
+      "id": "w-47a363fa31",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Der Körper der ägyptischen Sphinx ist welchem Tier nachempfunden?",
+      "richtig": "Löwe",
+      "falsch": [
+        "Stier",
+        "Pferd",
+        "Hund"
+      ]
+    },
+    {
+      "id": "w-535d3ecab2",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt die Hauptstadt von Chile?",
+      "richtig": "Santiago",
+      "falsch": [
+        "Valparaíso",
+        "Copiapó",
+        "Antofagasta"
+      ]
+    },
+    {
+      "id": "w-6780588fde",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "An wie viele Länder grenzt Luxemburg?",
+      "richtig": "3",
+      "falsch": [
+        "4",
+        "2",
+        "5"
+      ],
+      "info": "Belgien, Deutschland und Frankreich."
+    },
+    {
+      "id": "w-6a2cce99e9",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche zwei heutigen Staaten bildeten bis 1980 die Region Rhodesien?",
+      "richtig": "Sambia und Simbabwe",
+      "falsch": [
+        "Togo und Benin",
+        "Lesotho und Eswatini",
+        "Ruanda und Burundi"
+      ]
+    },
+    {
+      "id": "w-8c5e03494b",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches Land ist das einzige verbliebene Großherzogtum der Welt?",
+      "richtig": "Luxemburg",
+      "falsch": [
+        "Montenegro",
+        "Liechtenstein",
+        "Andorra"
+      ]
+    },
+    {
+      "id": "w-b18e38e7d5",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Stadt ist die größte Kanadas?",
+      "richtig": "Toronto",
+      "falsch": [
+        "Montreal",
+        "Vancouver",
+        "Ottawa"
+      ]
+    },
+    {
+      "id": "w-b5e44810d9",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches Land hat drei Hauptstädte?",
+      "richtig": "Südafrika",
+      "falsch": [
+        "Somalia",
+        "China",
+        "Vereinigtes Königreich"
+      ],
+      "info": "Pretoria, Kapstadt und Bloemfontein."
+    },
+    {
+      "id": "w-b5fed40351",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches russische Gebiet grenzt an Polen?",
+      "richtig": "Kaliningrad",
+      "falsch": [
+        "Samara",
+        "Nischni Nowgorod",
+        "Omsk"
+      ]
+    },
+    {
+      "id": "w-bb21d7b7b9",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem europäischen Land hat die Weltgesundheitsorganisation ihren Hauptsitz?",
+      "richtig": "Schweiz",
+      "falsch": [
+        "Vereinigtes Königreich",
+        "Frankreich",
+        "Belgien"
+      ]
+    },
+    {
+      "id": "w-c09b1e28e3",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele Länder sind flächenmäßig größer als Australien?",
+      "richtig": "5",
+      "falsch": [
+        "4",
+        "3",
+        "6"
+      ],
+      "info": "Russland, Kanada, China, die USA und Brasilien."
+    },
+    {
+      "id": "w-cfd58c55ec",
+      "kategorie": "Geografie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "In welchem Ozean liegt die Insel Réunion?",
+      "richtig": "Indischer Ozean",
+      "falsch": [
+        "Atlantischer Ozean",
+        "Südpazifik",
+        "Nordpazifik"
+      ]
+    },
+    {
+      "id": "w-d1cdac9e85",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele ständig Wasser führende Flüsse gibt es in Saudi-Arabien?",
+      "richtig": "Keinen",
+      "falsch": [
+        "Einen",
+        "Zwei",
+        "Drei"
+      ],
+      "info": "Es gibt nur Wadis, die nach Regen für kurze Zeit Wasser führen."
+    },
+    {
+      "id": "w-d9f99269ec",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt die Hauptstadt von Australien?",
+      "richtig": "Canberra",
+      "falsch": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane"
+      ]
+    },
+    {
+      "id": "w-e61055394d",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher ist der längste Fluss Europas?",
+      "richtig": "Wolga",
+      "falsch": [
+        "Donau",
+        "Rhein",
+        "Themse"
+      ]
+    },
+    {
+      "id": "w-ed760c9a84",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche ist die größte Insel der Erde, die kein Kontinent ist?",
+      "richtig": "Grönland",
+      "falsch": [
+        "Neuguinea",
+        "Borneo",
+        "Madagaskar"
+      ]
+    },
+    {
+      "id": "w-fdf914ac47",
+      "kategorie": "Geografie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Die Pyrenäen bilden die Grenze zwischen welchen zwei Ländern?",
+      "richtig": "Frankreich und Spanien",
+      "falsch": [
+        "Italien und Schweiz",
+        "Norwegen und Schweden",
+        "Russland und Ukraine"
+      ]
+    },
+    {
+      "id": "w-1a54102b08",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie nannte man im Ersten Weltkrieg das Bündnis aus Deutschland, Österreich-Ungarn, dem Osmanischen Reich und Bulgarien?",
+      "richtig": "Mittelmächte",
+      "falsch": [
+        "Achsenmächte",
+        "Entente",
+        "Heilige Allianz"
+      ]
+    },
+    {
+      "id": "w-1e4745d7b1",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wem wird das Epos „Odyssee“ zugeschrieben?",
+      "richtig": "Homer",
+      "falsch": [
+        "Aristoteles",
+        "Odysseus",
+        "Sokrates"
+      ]
+    },
+    {
+      "id": "w-3016e60568",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Unter welchem Kaiser erreichte das Römische Reich seine größte Ausdehnung?",
+      "richtig": "Trajan",
+      "falsch": [
+        "Julius Caesar",
+        "Claudius",
+        "Konstantin der Große"
+      ]
+    },
+    {
+      "id": "w-3257b94315",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem Jahr wurde der letzte natürliche Pockenfall dokumentiert?",
+      "richtig": "1977",
+      "falsch": [
+        "1982",
+        "1980",
+        "1990"
+      ]
+    },
+    {
+      "id": "w-38cb18a94a",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "In welcher Religion sind die Veden, eine Sammlung von Hymnen und Versen in Sanskrit, heilige Schriften?",
+      "richtig": "Hinduismus",
+      "falsch": [
+        "Judentum",
+        "Islam",
+        "Buddhismus"
+      ]
+    },
+    {
+      "id": "w-3f546d85eb",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie nennt man die alten Handelswege, die den Osten und den Westen Eurasiens verbanden?",
+      "richtig": "Seidenstraße",
+      "falsch": [
+        "Gewürzstraße",
+        "Bernsteinstraße",
+        "Salzstraße"
+      ]
+    },
+    {
+      "id": "w-4743af3412",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer entdeckte das Penicillin?",
+      "richtig": "Alexander Fleming",
+      "falsch": [
+        "Marie Curie",
+        "Alfred Nobel",
+        "Louis Pasteur"
+      ]
+    },
+    {
+      "id": "w-4bf07028e1",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem Jahr landeten Neil Armstrong und Buzz Aldrin auf dem Mond?",
+      "richtig": "1969",
+      "falsch": [
+        "1965",
+        "1966",
+        "1973"
+      ]
+    },
+    {
+      "id": "w-50a09264be",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer war der erste römische Kaiser?",
+      "richtig": "Augustus",
+      "falsch": [
+        "Julius Caesar",
+        "Pompeius",
+        "Claudius"
+      ]
+    },
+    {
+      "id": "w-592650271c",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Auf welchen Tag fallen die Iden des März?",
+      "richtig": "15. März",
+      "falsch": [
+        "14. März",
+        "31. März",
+        "1. März"
+      ]
+    },
+    {
+      "id": "w-6af95e459f",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "In welchem Jahr wurde Nelson Mandela aus der Haft entlassen?",
+      "richtig": "1990",
+      "falsch": [
+        "1994",
+        "1992",
+        "1980"
+      ]
+    },
+    {
+      "id": "w-825e0496af",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches Säugetier wurde als erstes in eine Erdumlaufbahn geschickt?",
+      "richtig": "Die Hündin Laika",
+      "falsch": [
+        "Der Schimpanse Ham",
+        "Das Totenkopfäffchen Baker",
+        "Die Hündin Belka"
+      ],
+      "info": "Laika flog 1957 an Bord von Sputnik 2."
+    },
+    {
+      "id": "w-973b1d3500",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche Mission war die letzte des Apollo-Programms?",
+      "richtig": "Apollo 17",
+      "falsch": [
+        "Apollo 13",
+        "Apollo 11",
+        "Apollo 15"
+      ]
+    },
+    {
+      "id": "w-a4184659ee",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wann erschien das „Unua Libro“, das erste Lehrbuch der Plansprache Esperanto?",
+      "richtig": "1887",
+      "falsch": [
+        "1897",
+        "1905",
+        "1915"
+      ]
+    },
+    {
+      "id": "w-cc5ed9d5c9",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem Kernkraftwerk in der Ukraine ereignete sich 1986 die Reaktorkatastrophe?",
+      "richtig": "Tschernobyl",
+      "falsch": [
+        "Ignalina",
+        "Majak",
+        "Kursk"
+      ]
+    },
+    {
+      "id": "w-ccb688b75b",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches Land trat 2013 der Europäischen Union bei?",
+      "richtig": "Kroatien",
+      "falsch": [
+        "Bulgarien",
+        "Slowenien",
+        "Türkei"
+      ]
+    },
+    {
+      "id": "w-d5c08827de",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "In welchem Jahr ging das Byzantinische Reich unter?",
+      "richtig": "1453",
+      "falsch": [
+        "1299",
+        "1353",
+        "1498"
+      ]
+    },
+    {
+      "id": "w-f089367970",
+      "kategorie": "Geschichte",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welchem Dialog Platons verteidigt sich Sokrates vor dem Gericht von Athen?",
+      "richtig": "Apologie",
+      "falsch": [
+        "Euthyphron",
+        "Nomoi",
+        "Politeia"
+      ]
+    },
+    {
+      "id": "w-078d8ccac4",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer malte das Bild „Nighthawks“ (Nachtschwärmer)?",
+      "richtig": "Edward Hopper",
+      "falsch": [
+        "Jan Vermeer",
+        "Vincent van Gogh",
+        "Salvador Dalí"
+      ]
+    },
+    {
+      "id": "w-0c85d710ba",
+      "kategorie": "Kunst",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer malte die „Sternennacht“?",
+      "richtig": "Vincent van Gogh",
+      "falsch": [
+        "Edvard Munch",
+        "Pablo Picasso",
+        "Claude Monet"
+      ]
+    },
+    {
+      "id": "w-36884f53ab",
+      "kategorie": "Kunst",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie heißt die japanische Kunst, Papier zu Figuren zu falten?",
+      "richtig": "Origami",
+      "falsch": [
+        "Sumi-e",
+        "Ukiyo-e",
+        "Ikebana"
+      ]
+    },
+    {
+      "id": "w-37bb19de05",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer malte das monumentale Wandbild „Guernica“?",
+      "richtig": "Pablo Picasso",
+      "falsch": [
+        "Francisco de Goya",
+        "Leonardo da Vinci",
+        "Henri Matisse"
+      ]
+    },
+    {
+      "id": "w-41406d79a8",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Aus welchem Land stammte der surrealistische Maler Salvador Dalí?",
+      "richtig": "Spanien",
+      "falsch": [
+        "Italien",
+        "Frankreich",
+        "Portugal"
+      ]
+    },
+    {
+      "id": "w-5e4cf37c6a",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer entwarf das Logo der Lutscher-Marke Chupa Chups?",
+      "richtig": "Salvador Dalí",
+      "falsch": [
+        "Pablo Picasso",
+        "Andy Warhol",
+        "Joan Miró"
+      ]
+    },
+    {
+      "id": "w-8b16cb919f",
+      "kategorie": "Kunst",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Was ist ein typisches Merkmal gotischer Architektur?",
+      "richtig": "Spitzbogen",
+      "falsch": [
+        "Kassettendecke",
+        "Rundbogen",
+        "Kuppel"
+      ]
+    },
+    {
+      "id": "w-bb011ff911",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher Maler setzte seine Bilder aus vielen kleinen Farbpunkten zusammen?",
+      "richtig": "Georges Seurat",
+      "falsch": [
+        "Paul Cézanne",
+        "Vincent van Gogh",
+        "Henri Rousseau"
+      ]
+    },
+    {
+      "id": "w-be02937985",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher Künstler nannte sein Atelier „The Factory“?",
+      "richtig": "Andy Warhol",
+      "falsch": [
+        "Roy Lichtenstein",
+        "David Hockney",
+        "Peter Blake"
+      ]
+    },
+    {
+      "id": "w-e45105bce4",
+      "kategorie": "Kunst",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer malte „Der Schrei“?",
+      "richtig": "Edvard Munch",
+      "falsch": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Henri Matisse"
+      ]
+    },
+    {
+      "id": "w-fd829a1504",
+      "kategorie": "Kunst",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches Werk gilt als älteste bekannte erzählende Dichtung der Welt?",
+      "richtig": "Gilgamesch-Epos",
+      "falsch": [
+        "Ägyptisches Totenbuch",
+        "Codex Hammurapi",
+        "Stein von Rosette"
+      ]
+    },
+    {
+      "id": "w-fec4a8e2a8",
+      "kategorie": "Kunst",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer schuf die berühmte Marmorstatue des David in Florenz?",
+      "richtig": "Michelangelo",
+      "falsch": [
+        "Gian Lorenzo Bernini",
+        "Auguste Rodin",
+        "Antonio Canova"
+      ]
+    },
+    {
+      "id": "w-0cc82dffa1",
+      "kategorie": "Literatur",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer schrieb den Roman „Herr der Fliegen“ (1954)?",
+      "richtig": "William Golding",
+      "falsch": [
+        "Stephen King",
+        "F. Scott Fitzgerald",
+        "George Orwell"
+      ]
+    },
+    {
+      "id": "w-3740667fd1",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie lautet die letzte Botschaft der Delfine in „Per Anhalter durch die Galaxis“?",
+      "richtig": "„Macht’s gut, und danke für den Fisch.“",
+      "falsch": [
+        "„Die Antwort ist 42.“",
+        "„Keine Panik!“",
+        "„Leb wohl, grausame Welt!“"
+      ]
+    },
+    {
+      "id": "w-39366a00ea",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Unter welchem Namen wurde der Schriftsteller Eric Blair bekannt?",
+      "richtig": "George Orwell",
+      "falsch": [
+        "Aldous Huxley",
+        "Ernest Hemingway",
+        "Ray Bradbury"
+      ]
+    },
+    {
+      "id": "w-3d2000b3c9",
+      "kategorie": "Literatur",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welcher Autor von Spionageromanen schrieb auch das Kinderbuch „Tschitti Tschitti Bäng Bäng“?",
+      "richtig": "Ian Fleming",
+      "falsch": [
+        "Joseph Conrad",
+        "John Buchan",
+        "Graham Greene"
+      ]
+    },
+    {
+      "id": "w-568552d66f",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Woher stammt Paddington Bär in der Kinderbuchreihe ursprünglich?",
+      "richtig": "Peru",
+      "falsch": [
+        "Indien",
+        "Island",
+        "Kanada"
+      ]
+    },
+    {
+      "id": "w-5b59b1b703",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Unter welchem Pseudonym schrieb die Romanautorin Mary Ann Evans?",
+      "richtig": "George Eliot",
+      "falsch": [
+        "George Orwell",
+        "George Bernard Shaw",
+        "George Sand"
+      ]
+    },
+    {
+      "id": "w-6928b07b13",
+      "kategorie": "Literatur",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welcher Klassiker beginnt mit dem Satz „Nennt mich Ismael“?",
+      "richtig": "Moby-Dick",
+      "falsch": [
+        "Eine Geschichte aus zwei Städten",
+        "Die Schatzinsel",
+        "Sturmhöhe"
+      ]
+    },
+    {
+      "id": "w-6db95a6f40",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Was muss man in den „Harry Potter“-Romanen tun, um in den Gemeinschaftsraum von Ravenclaw zu gelangen?",
+      "richtig": "Ein Rätsel lösen",
+      "falsch": [
+        "Fässer im richtigen Rhythmus antippen",
+        "Ein Passwort nennen",
+        "In einer bestimmten Folge klopfen"
+      ]
+    },
+    {
+      "id": "w-7f4b3fab7e",
+      "kategorie": "Literatur",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie heißt der erste Sherlock-Holmes-Roman von Arthur Conan Doyle?",
+      "richtig": "Eine Studie in Scharlachrot",
+      "falsch": [
+        "Das Zeichen der Vier",
+        "Der Hund der Baskervilles",
+        "Ein Skandal in Böhmen"
+      ]
+    },
+    {
+      "id": "w-812232b944",
+      "kategorie": "Literatur",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie heißt das U-Boot von Kapitän Nemo in „20.000 Meilen unter dem Meer“?",
+      "richtig": "Nautilus",
+      "falsch": [
+        "Neptun",
+        "Poseidon",
+        "Atlantis"
+      ]
+    },
+    {
+      "id": "w-988dd13607",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele Ringe der Macht erhielten die Menschen in „Der Herr der Ringe“?",
+      "richtig": "9",
+      "falsch": [
+        "3",
+        "7",
+        "5"
+      ]
+    },
+    {
+      "id": "w-998e4495a8",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Was für eine Schlange ist Kaa in Rudyard Kiplings „Dschungelbuch“?",
+      "richtig": "Python",
+      "falsch": [
+        "Kobra",
+        "Anakonda",
+        "Viper"
+      ]
+    },
+    {
+      "id": "w-aeb1522c73",
+      "kategorie": "Literatur",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer schrieb „Frankenstein“?",
+      "richtig": "Mary Shelley",
+      "falsch": [
+        "Edgar Allan Poe",
+        "Bram Stoker",
+        "H. P. Lovecraft"
+      ]
+    },
+    {
+      "id": "w-c0fe2425b8",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer tötet in „Der Hobbit“ den Drachen Smaug?",
+      "richtig": "Bard",
+      "falsch": [
+        "Bilbo Beutlin",
+        "Gandalf",
+        "Thorin Eichenschild"
+      ]
+    },
+    {
+      "id": "w-c342badb3a",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher russische Autor schrieb den Roman „Krieg und Frieden“?",
+      "richtig": "Leo Tolstoi",
+      "falsch": [
+        "Fjodor Dostojewski",
+        "Alexander Puschkin",
+        "Vladimir Nabokov"
+      ]
+    },
+    {
+      "id": "w-de7b106775",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Auf welcher Position spielt Harry Potter beim Quidditch?",
+      "richtig": "Sucher",
+      "falsch": [
+        "Treiber",
+        "Jäger",
+        "Hüter"
+      ]
+    },
+    {
+      "id": "w-f7475740db",
+      "kategorie": "Literatur",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele Bände umfassen „Die Chroniken von Narnia“?",
+      "richtig": "7",
+      "falsch": [
+        "6",
+        "8",
+        "5"
+      ]
+    },
+    {
+      "id": "w-16cb72be6f",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Was folgt im Hexadezimalsystem auf die 9?",
+      "richtig": "Der Buchstabe A",
+      "falsch": [
+        "Die 10",
+        "Die 0",
+        "Die 16"
+      ]
+    },
+    {
+      "id": "w-2e80d80b3c",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie lauten die ersten sechs Ziffern der Kreiszahl Pi?",
+      "richtig": "3,14159",
+      "falsch": [
+        "3,14169",
+        "3,12423",
+        "3,25812"
+      ]
+    },
+    {
+      "id": "w-5efec1dc40",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher griechische Buchstabe steht in der Mathematik für eine Summe?",
+      "richtig": "Sigma",
+      "falsch": [
+        "Delta",
+        "Alpha",
+        "Omega"
+      ]
+    },
+    {
+      "id": "w-8f3dccd01b",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Zahl bedeutet XL in römischen Ziffern?",
+      "richtig": "40",
+      "falsch": [
+        "60",
+        "15",
+        "90"
+      ]
+    },
+    {
+      "id": "w-8f9bc2bad9",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie hieß der Mathematiker Euler mit Vornamen?",
+      "richtig": "Leonhard",
+      "falsch": [
+        "Leopold",
+        "Ludwig",
+        "Lorenz"
+      ]
+    },
+    {
+      "id": "w-966ef2d907",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele Nullen hat ein Googol?",
+      "richtig": "100",
+      "falsch": [
+        "10",
+        "1.000",
+        "1.000.000"
+      ]
+    },
+    {
+      "id": "w-97915ae05f",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer bewies den Großen Fermatschen Satz?",
+      "richtig": "Andrew Wiles",
+      "falsch": [
+        "Leonhard Euler",
+        "Carl Friedrich Gauß",
+        "Srinivasa Ramanujan"
+      ]
+    },
+    {
+      "id": "w-b354455c34",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viele Seiten hat ein Möbiusband?",
+      "richtig": "1",
+      "falsch": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "w-bfc538af2e",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Primzahl folgt auf die 19?",
+      "richtig": "23",
+      "falsch": [
+        "25",
+        "21",
+        "27"
+      ]
+    },
+    {
+      "id": "w-d7d1ef4de5",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche Form haben die Graphen von Sinus und Kosinus?",
+      "richtig": "Wellen",
+      "falsch": [
+        "Parabel",
+        "Gerade",
+        "Zickzack"
+      ]
+    },
+    {
+      "id": "w-d93e2d6dfd",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Mit welchem griechischen Buchstaben wird der Goldene Schnitt meist bezeichnet?",
+      "richtig": "Phi",
+      "falsch": [
+        "Pi",
+        "Psi",
+        "Tau"
+      ]
+    },
+    {
+      "id": "w-e0127e7f0b",
+      "kategorie": "Mathematik",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viele quadratische Flächen hat ein Würfel?",
+      "richtig": "6",
+      "falsch": [
+        "4",
+        "8",
+        "12"
+      ]
+    },
+    {
+      "id": "w-21f64875a6",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt der griechische Gott der Schmiede?",
+      "richtig": "Hephaistos",
+      "falsch": [
+        "Hermes",
+        "Ares",
+        "Hades"
+      ]
+    },
+    {
+      "id": "w-29d9f74728",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "An welcher Schwachstelle traf der trojanische Prinz Paris den Helden Achilles?",
+      "richtig": "Ferse",
+      "falsch": [
+        "Nacken",
+        "Rücken",
+        "Wade"
+      ]
+    },
+    {
+      "id": "w-2d7a5b6161",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Wesen der Mythologie haben Frauengesichter und den Körper von Geiern?",
+      "richtig": "Harpyien",
+      "falsch": [
+        "Meerjungfrauen",
+        "Nymphen",
+        "Zentauren"
+      ]
+    },
+    {
+      "id": "w-4399c5a24b",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer ist in der griechischen Mythologie der Gott des Weines?",
+      "richtig": "Dionysos",
+      "falsch": [
+        "Hephaistos",
+        "Demeter",
+        "Apollon"
+      ]
+    },
+    {
+      "id": "w-5114847aef",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt der römische Gott Neptun bei den Griechen?",
+      "richtig": "Poseidon",
+      "falsch": [
+        "Ares",
+        "Zeus",
+        "Apollon"
+      ]
+    },
+    {
+      "id": "w-67b35ce835",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer war der römische Gott des Feuers?",
+      "richtig": "Vulcanus",
+      "falsch": [
+        "Apollo",
+        "Jupiter",
+        "Merkur"
+      ]
+    },
+    {
+      "id": "w-68e6a50e11",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In afrikanischen Mythen ist Anansi ein listiger Geschichtenerzähler. In Gestalt welchen Tieres tritt er auf?",
+      "richtig": "Spinne",
+      "falsch": [
+        "Wildhund",
+        "Affe",
+        "Krokodil"
+      ]
+    },
+    {
+      "id": "w-6ce7b45a0d",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wofür steht die ägyptische Hieroglyphe Anch?",
+      "richtig": "Leben",
+      "falsch": [
+        "Liebe",
+        "Tod",
+        "Macht"
+      ]
+    },
+    {
+      "id": "w-93b2314b7a",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Die Sportmarke Nike ist nach der griechischen Göttin wovon benannt?",
+      "richtig": "Sieg",
+      "falsch": [
+        "Mut",
+        "Stärke",
+        "Ehre"
+      ]
+    },
+    {
+      "id": "w-a2ea3b336c",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche griechische Gottheit warf einen goldenen Apfel mit der Aufschrift „Der Schönsten“ unter die feiernden Götter?",
+      "richtig": "Eris",
+      "falsch": [
+        "Hades",
+        "Ares",
+        "Artemis"
+      ]
+    },
+    {
+      "id": "w-a3f2fdaef7",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer führte in der griechischen Sage die Argonauten auf der Suche nach dem Goldenen Vlies an?",
+      "richtig": "Jason",
+      "falsch": [
+        "Kastor",
+        "Daidalos",
+        "Odysseus"
+      ]
+    },
+    {
+      "id": "w-b4de894df4",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Die Kerne welcher Frucht aß Persephone, sodass sie immer wieder in die Unterwelt zurückkehren muss?",
+      "richtig": "Granatapfel",
+      "falsch": [
+        "Sonnenblume",
+        "Orange",
+        "Feige"
+      ]
+    },
+    {
+      "id": "w-d293616e34",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wer ist der Vater von Ikarus, der der Sonne zu nahe kam?",
+      "richtig": "Daidalos",
+      "falsch": [
+        "Minos",
+        "Perseus",
+        "Zeus"
+      ]
+    },
+    {
+      "id": "w-d55f7599b4",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt der Weltenbaum in der nordischen Mythologie?",
+      "richtig": "Yggdrasil",
+      "falsch": [
+        "Ymir",
+        "Bifröst",
+        "Mjölnir"
+      ]
+    },
+    {
+      "id": "w-f983b11c95",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Odin hat zwei Raben namens Hugin und Munin. Was bedeuten ihre Namen?",
+      "richtig": "Gedanke und Erinnerung",
+      "falsch": [
+        "Macht und Frieden",
+        "Krieg und Wissen",
+        "Schlafen und Wachen"
+      ]
+    },
+    {
+      "id": "w-fd53e47671",
+      "kategorie": "Mythologie",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viele Köpfe hat der Höllenhund Zerberus?",
+      "richtig": "3",
+      "falsch": [
+        "2",
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "w-0d066e528e",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wer formulierte das Gravitationsgesetz?",
+      "richtig": "Isaac Newton",
+      "falsch": [
+        "Galileo Galilei",
+        "Charles Darwin",
+        "Albert Einstein"
+      ]
+    },
+    {
+      "id": "w-138e666482",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viele Hauptsätze der Thermodynamik gibt es?",
+      "richtig": "Vier",
+      "falsch": [
+        "Drei",
+        "Zwei",
+        "Fünf"
+      ],
+      "info": "Sie werden vom nullten bis zum dritten Hauptsatz gezählt."
+    },
+    {
+      "id": "w-2a2880673d",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher Teil des Gehirns ist nach dem griechischen Wort für Seepferdchen benannt?",
+      "richtig": "Hippocampus",
+      "falsch": [
+        "Kleinhirn",
+        "Thalamus",
+        "Amygdala"
+      ]
+    },
+    {
+      "id": "w-2eec8a82db",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Was ist die SI-Einheit der elektrischen Stromstärke?",
+      "richtig": "Ampere",
+      "falsch": [
+        "Volt",
+        "Ohm",
+        "Watt"
+      ]
+    },
+    {
+      "id": "w-3108c23b92",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wodurch wird Lyme-Borreliose ausgelöst?",
+      "richtig": "Bakterien",
+      "falsch": [
+        "Viren",
+        "Parasitische Würmer",
+        "Amöben"
+      ]
+    },
+    {
+      "id": "w-39397a83f4",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "In welcher Einheit wird die Energiedosis ionisierender Strahlung gemessen?",
+      "richtig": "Gray",
+      "falsch": [
+        "Watt",
+        "Dezibel",
+        "Kelvin"
+      ]
+    },
+    {
+      "id": "w-4cfba92475",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Für welche Naturerscheinung entwickelte der Forscher Tetsuya Fujita eine Skala?",
+      "richtig": "Tornados",
+      "falsch": [
+        "Hurrikane",
+        "Erdbeben",
+        "Vulkanausbrüche"
+      ]
+    },
+    {
+      "id": "w-4d56bf5d7e",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie alt ist die Erde ungefähr?",
+      "richtig": "4,5 Milliarden Jahre",
+      "falsch": [
+        "3,5 Milliarden Jahre",
+        "2,5 Milliarden Jahre",
+        "5,5 Milliarden Jahre"
+      ]
+    },
+    {
+      "id": "w-6240050547",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welches Zellorganell gilt als „Kraftwerk der Zelle“?",
+      "richtig": "Mitochondrium",
+      "falsch": [
+        "Zellkern",
+        "Golgi-Apparat",
+        "Endoplasmatisches Retikulum"
+      ]
+    },
+    {
+      "id": "w-67a0b0da12",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Gesteinsart entsteht durch große Hitze und hohen Druck?",
+      "richtig": "Metamorphes Gestein",
+      "falsch": [
+        "Sedimentgestein",
+        "Magmatisches Gestein",
+        "Meteoritengestein"
+      ]
+    },
+    {
+      "id": "w-69e9cb763e",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Zwischen welchen beiden Planeten liegt der Asteroidengürtel?",
+      "richtig": "Mars und Jupiter",
+      "falsch": [
+        "Jupiter und Saturn",
+        "Merkur und Venus",
+        "Erde und Mars"
+      ]
+    },
+    {
+      "id": "w-723a5c40c9",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Sterne bestehen hauptsächlich aus Wasserstoff und welchem anderen Gas?",
+      "richtig": "Helium",
+      "falsch": [
+        "Sauerstoff",
+        "Argon",
+        "Stickstoff"
+      ]
+    },
+    {
+      "id": "w-7ecba96837",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher Schweizer Psychologe prägte die Begriffe „introvertiert“ und „extravertiert“?",
+      "richtig": "Carl Gustav Jung",
+      "falsch": [
+        "Jean Piaget",
+        "Alice Miller",
+        "Hermann Rorschach"
+      ]
+    },
+    {
+      "id": "w-833fa387ff",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viel Prozent der Erdoberfläche sind ungefähr von Wasser bedeckt?",
+      "richtig": "70 %",
+      "falsch": [
+        "30 %",
+        "50 %",
+        "90 %"
+      ]
+    },
+    {
+      "id": "w-a6ead26341",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele Lappen hat der rechte Lungenflügel des Menschen?",
+      "richtig": "3",
+      "falsch": [
+        "4",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "id": "w-a8eea229be",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welchen Planeten umkreisen die Monde Miranda, Ariel, Umbriel, Titania und Oberon?",
+      "richtig": "Uranus",
+      "falsch": [
+        "Jupiter",
+        "Venus",
+        "Neptun"
+      ]
+    },
+    {
+      "id": "w-bdc0da9e91",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Was wird bei einem Flugzeug mit Landeklappen und Vorflügeln beeinflusst?",
+      "richtig": "Auftrieb",
+      "falsch": [
+        "Schub",
+        "Luftwiderstand",
+        "Gewicht"
+      ]
+    },
+    {
+      "id": "w-befd2e7932",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welcher ist der heißeste Planet des Sonnensystems?",
+      "richtig": "Venus",
+      "falsch": [
+        "Mars",
+        "Merkur",
+        "Jupiter"
+      ],
+      "info": "Ihre dichte Atmosphäre hält die Wärme fest – es ist dort heißer als auf dem sonnennäheren Merkur."
+    },
+    {
+      "id": "w-d576051bf4",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Deuterium ist ein Isotop welchen Elements?",
+      "richtig": "Wasserstoff",
+      "falsch": [
+        "Stickstoff",
+        "Helium",
+        "Neon"
+      ]
+    },
+    {
+      "id": "w-d5ccf106ae",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viel Prozent der Erdatmosphäre bestehen ungefähr aus Sauerstoff?",
+      "richtig": "21 %",
+      "falsch": [
+        "54 %",
+        "78 %",
+        "7 %"
+      ]
+    },
+    {
+      "id": "w-d5e58b931b",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welcher ist der größte bekannte Organismus der Erde?",
+      "richtig": "Ein Hallimasch (Pilz)",
+      "falsch": [
+        "Der Blauwal",
+        "Ein Mammutbaum",
+        "Ein Korallenriff"
+      ],
+      "info": "Ein einzelner Hallimasch in Oregon erstreckt sich unterirdisch über mehrere Quadratkilometer."
+    },
+    {
+      "id": "w-dc86e883c0",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie schnell ist Licht im Vakuum ungefähr?",
+      "richtig": "300.000 km pro Sekunde",
+      "falsch": [
+        "30.000 km pro Sekunde",
+        "3 Millionen km pro Sekunde",
+        "150.000 km pro Sekunde"
+      ]
+    },
+    {
+      "id": "w-e92edd62d9",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Woraus bestehen die Nägel des Menschen?",
+      "richtig": "Keratin",
+      "falsch": [
+        "Knochen",
+        "Chitin",
+        "Kalzium"
+      ]
+    },
+    {
+      "id": "w-ebc86aec3d",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie heißt die chemische Verbindung „Dihydrogenmonoxid“ im Alltag?",
+      "richtig": "Wasser",
+      "falsch": [
+        "Methan",
+        "Ammoniak",
+        "Lachgas"
+      ]
+    },
+    {
+      "id": "w-f588b5ce68",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie viele Herzen hat ein Oktopus?",
+      "richtig": "Drei",
+      "falsch": [
+        "Eins",
+        "Zwei",
+        "Vier"
+      ],
+      "info": "Zwei Herzen pumpen das Blut durch die Kiemen, das dritte durch den Körper."
+    },
+    {
+      "id": "w-f72f8ac382",
+      "kategorie": "Natur & Wissenschaft",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches Symbol hat das chemische Element Quecksilber?",
+      "richtig": "Hg",
+      "falsch": [
+        "Qs",
+        "Me",
+        "Hy"
+      ]
+    },
+    {
+      "id": "w-18fd417019",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches ist das Nationaltier Indiens?",
+      "richtig": "Tiger",
+      "falsch": [
+        "Löwe",
+        "Elefant",
+        "Kamel"
+      ]
+    },
+    {
+      "id": "w-202004fb1d",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welche Farbe hat das Gefieder eines Amselweibchens?",
+      "richtig": "Braun",
+      "falsch": [
+        "Schwarz",
+        "Weiß",
+        "Gelb"
+      ]
+    },
+    {
+      "id": "w-29bfe89dd5",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche ist die längste Giftschlange der Welt?",
+      "richtig": "Königskobra",
+      "falsch": [
+        "Grüne Anakonda",
+        "Inlandtaipan",
+        "Plättchen-Seeschlange"
+      ]
+    },
+    {
+      "id": "w-35017b4ed9",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Von welchem Tier stammt Kaschmirwolle?",
+      "richtig": "Ziege",
+      "falsch": [
+        "Schaf",
+        "Kamel",
+        "Lama"
+      ]
+    },
+    {
+      "id": "w-4b485ddb4f",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche Hunderasse ist nach einer Region in Kroatien benannt?",
+      "richtig": "Dalmatiner",
+      "falsch": [
+        "Pekinese",
+        "Chihuahua",
+        "Zwergspitz"
+      ]
+    },
+    {
+      "id": "w-6f9001d7ba",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Welches ist das schnellste Landtier?",
+      "richtig": "Gepard",
+      "falsch": [
+        "Löwe",
+        "Thomson-Gazelle",
+        "Gabelbock"
+      ]
+    },
+    {
+      "id": "w-851fac9b1a",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Zu welcher Klasse von Tieren gehören Molche?",
+      "richtig": "Amphibien",
+      "falsch": [
+        "Fische",
+        "Reptilien",
+        "Säugetiere"
+      ]
+    },
+    {
+      "id": "w-ad7cbd4486",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wo lebt ein Tier, das als „abyssopelagisch“ bezeichnet wird?",
+      "richtig": "In der Tiefsee",
+      "falsch": [
+        "In der Wüste",
+        "Auf Berggipfeln",
+        "In Baumhöhlen"
+      ]
+    },
+    {
+      "id": "w-d12aa9bb76",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "Wie viele Beine haben Schmetterlinge?",
+      "richtig": "6",
+      "falsch": [
+        "2",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "id": "w-d4ecb76368",
+      "kategorie": "Tiere",
+      "schwierigkeit": "leicht",
+      "modus": "beide",
+      "frage": "In welchem Land lebt der Kakapo, ein großer, flugunfähiger, nachtaktiver Papagei?",
+      "richtig": "Neuseeland",
+      "falsch": [
+        "Südafrika",
+        "Australien",
+        "Madagaskar"
+      ]
+    },
+    {
+      "id": "w-de4cf5115c",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Was bedeutet „Hippopotamus“ und aus welcher Sprache kommt das Wort?",
+      "richtig": "Flusspferd (Griechisch)",
+      "falsch": [
+        "Flusspferd (Latein)",
+        "Dickes Schwein (Griechisch)",
+        "Dickes Schwein (Latein)"
+      ]
+    },
+    {
+      "id": "w-dfd9de0990",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie heißt eine männliche Biene, die aus einem unbefruchteten Ei schlüpft?",
+      "richtig": "Drohne",
+      "falsch": [
+        "Soldat",
+        "Arbeiter",
+        "Weisel"
+      ]
+    },
+    {
+      "id": "w-e8c2ccab12",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Welche Farbe hat die Haut eines Eisbären?",
+      "richtig": "Schwarz",
+      "falsch": [
+        "Weiß",
+        "Rosa",
+        "Grau"
+      ],
+      "info": "Die Haare sind durchsichtig und hohl – das Fell wirkt nur weiß."
+    },
+    {
+      "id": "w-fbc563eabc",
+      "kategorie": "Tiere",
+      "schwierigkeit": "mittel",
+      "modus": "beide",
+      "frage": "Wie wird die Rinderkrankheit BSE umgangssprachlich genannt?",
+      "richtig": "Rinderwahnsinn",
+      "falsch": [
+        "Weil-Krankheit",
+        "Milchfieber",
+        "Maul- und Klauenseuche"
+      ]
+    }
+  ]
+}
