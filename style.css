@@ -418,10 +418,10 @@ button { touch-action: manipulation; }
 .tile {
   display: flex;
   align-items: center;
-  gap: var(--space-4);
+  gap: var(--space-3);
   width: 100%;
   min-height: 5rem;
-  padding: var(--space-3) var(--space-4);
+  padding: var(--space-2) var(--space-4) var(--space-2) var(--space-3);
   border: var(--border) solid var(--color-line);
   border-radius: var(--radius-m);
   background: var(--color-bg);
@@ -430,7 +430,7 @@ button { touch-action: manipulation; }
   transition: border-color var(--duration-fast) var(--ease);
 }
 .tile:active { border-color: var(--color-fg); }
-.tile__image { flex: none; width: 3.25rem; height: 3.25rem; object-fit: contain; }
+.tile__image { flex: none; width: 4rem; height: 4rem; object-fit: contain; }
 .tile__text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .tile__title {
   font-family: var(--font-serif);

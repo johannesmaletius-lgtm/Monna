@@ -33,7 +33,7 @@ fonts/          Playfair Display und Inter als WOFF2, mit Lizenztexten
 icons/          App-Icon (SVG und daraus erzeugte PNGs)
 manifest.json   Web-App-Manifest
 sw.js           Service Worker (Offline-Cache)
-tools/          fetch_trivia.py, validate_data.py, make_icons.js
+tools/          fetch_trivia.py, validate_data.py, make_icons.js, grafiken/ (Tusche-Umrechnung)
 ```
 
 `game.js` kennt kein DOM, `ui.js` und `minigames.js` kennen keine Spielregeln jenseits
@@ -71,8 +71,10 @@ schwarze Pillen-Buttons, Segment-Umschalter, dünner Fortschrittsbalken oben.
 
 ## Grafiken austauschen
 
-Das aktuelle Set ist ein einheitliches Linien-Set (schwarze Kontur, eine hellgraue Fläche,
-kleine Funkel-Akzente). Grafiken werden nur über feste Pfade geladen. Zum Austauschen
+Das aktuelle Set ist im Stil einer Tuschezeichnung gehalten: handgezogene Konturen in
+wechselnder Strichstärke, Schraffur statt Flächen, nur Schwarz auf Weiß. Die sauberen
+Vektormotive liegen in `tools/grafiken/quelle/`; `node tools/grafiken/tuschen.js` rechnet
+sie in Tuschezeichnungen um und schreibt sie nach `assets/`. Grafiken werden nur über feste Pfade geladen. Zum Austauschen
 genügt es, die Datei unter **demselben Namen** zu ersetzen und in `sw.js` die `VERSION` zu erhöhen. An den Grafiken
 hängt keine Logik; fehlt eine Datei, wird das Bild ausgeblendet.
 
@@ -227,6 +229,7 @@ Entscheidungen, die im Auftrag offen waren:
 14. **Lizenz für Code und eigene Inhalte** ist noch nicht festgelegt; bis dahin gilt
     „alle Rechte vorbehalten“, mit Ausnahme der oben genannten CC-BY-SA-Dateien und der
     Schriften.
-15. **Grafiken:** Die Illustrationen wurden nachträglich im vorläufigen Stil der App
-    gezeichnet (Schwarz, Weiß, ein helles Grau). Ein späterer Designprozess kann sie
-    Datei für Datei ersetzen.
+15. **Grafiken:** Die Illustrationen wurden nachträglich nach einer Stilvorlage
+    (Federzeichnung mit Schraffur) erstellt. Die Motive sind einfache Gegenstände und
+    Figuren; naturalistische Stiche wie in der Vorlage sind es nicht. Die Icons der
+    Kopfzeile bleiben schlichte Linien-Icons. Jede Datei lässt sich einzeln ersetzen.

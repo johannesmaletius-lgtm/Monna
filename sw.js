@@ -3,7 +3,7 @@
  * Bei jeder Änderung an Dateien die VERSION erhöhen, damit alte Caches gelöscht werden.
  * Neue Dateien (z. B. Grafiken) müssen in ASSETS stehen; tools/validate_data.py prüft das.
  */
-const VERSION = 'monna-v1.1.0';
+const VERSION = 'monna-v1.2.0';
 const ASSETS = [
   './',
   'index.html',
