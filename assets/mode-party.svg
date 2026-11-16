@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Platzhalter: wird später durch die fertige Grafik ersetzt (gleicher Dateiname). -->
+  <circle cx="60" cy="40" r="12"/><circle cx="30" cy="52" r="10" stroke="#6e6e6e"/><circle cx="90" cy="52" r="10" stroke="#6e6e6e"/><path d="M38 96c2-14 10-22 22-22s20 8 22 22"/><path d="M12 92c1-10 7-16 18-17M108 92c-1-10-7-16-18-17" stroke="#6e6e6e"/><path d="M20 22h.1M100 20h.1M60 14h.1M42 20h.1M80 26h.1" stroke-width="4" stroke="#6e6e6e"/>
+</svg>

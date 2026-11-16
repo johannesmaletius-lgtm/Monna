@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Monna</title>
+  <meta name="description" content="Monna – ein ruhiges Kartenspiel für zwei. Ohne Punkte, ohne Gewinner.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Monna">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dünner Fortschrittsbalken; wird von ui.js nur innerhalb einer Runde eingeblendet. -->
+  <div class="progress" id="progress" hidden
+       role="progressbar" aria-label="Fortschritt der Runde" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <i class="progress__bar" id="progressBar"></i>
+  </div>
+
+  <!-- Alle Screens werden von ui.js in dieses Element gerendert. -->
+  <main class="app" id="app" aria-live="polite"></main>
+
+  <noscript><p class="noscript">Monna braucht JavaScript. Bitte aktiviere es in deinem Browser.</p></noscript>
+
+  <script src="game.js"></script>
+  <script src="ui.js"></script>
+  <script src="minigames.js"></script>
+</body>
+</html>

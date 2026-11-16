@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Platzhalter: wird später durch die fertige Grafik ersetzt (gleicher Dateiname). -->
+  <circle cx="60" cy="60" r="40"/><circle cx="60" cy="60" r="12"/><path d="M60 20v28M60 72v28M20 60h28M72 60h28M32 32l20 20M68 68l20 20M88 32L68 52M52 68L32 88" stroke="#6e6e6e"/>
+</svg>

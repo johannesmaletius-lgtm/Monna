@@ -1,0 +1,837 @@
+/* ==========================================================================
+   Monna – Stylesheet
+   1. Schriften   2. Design-Tokens   3. Grundlagen   4. Layout
+   5. Bausteine   6. Screens         7. Minispiele   8. Stirnraten
+   Das spätere Design tauscht im Idealfall nur die Werte in Abschnitt 2.
+   ========================================================================== */
+
+/* 1. Schriften (lokal eingebettet, SIL Open Font License) ----------------- */
+@font-face {
+  font-family: "Playfair Display";
+  src: url("fonts/playfair-display-latin-wght-normal.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("fonts/playfair-display-latin-wght-italic.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Design-Tokens --------------------------------------------------------- */
+:root {
+  /* Farben: Weiß, Schwarz, ein Grau (plus zwei helle Abstufungen davon) */
+  --color-bg: #ffffff;
+  --color-fg: #111111;
+  --color-grey: #6e6e6e;
+  --color-line: #e2e2e2;
+  --color-surface: #f5f5f5;
+  --color-on-fg: #ffffff;          /* Text auf schwarzen Flächen */
+  --color-focus: #111111;
+
+  /* Hintergrund-Textur (Platzhalter ist transparent) */
+  --bg-texture: url("assets/bg-texture.png");
+
+  /* Schriften */
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-s: 0.875rem;
+  --text-m: 1rem;
+  --text-l: 1.125rem;
+  --text-title-small: clamp(1rem, 4.6vw, 1.1875rem);   /* erste, kleine Zeile */
+  --text-title-large: clamp(2rem, 10.4vw, 2.625rem);   /* zweite, große Zeile */
+  --text-card: clamp(1.3125rem, 6.2vw, 1.625rem);      /* Kartentext */
+  --text-display: clamp(3.5rem, 22vw, 5.5rem);         /* große Zahlen */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 600;
+  --leading-tight: 1.12;
+  --leading-card: 1.3;
+  --leading-body: 1.5;
+
+  /* Abstände */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --page-padding: clamp(1.125rem, 6vw, 1.5rem);
+  --page-max: 27rem;
+
+  /* Radien */
+  --radius-s: 0.625rem;
+  --radius-m: 1.125rem;
+  --radius-l: 1.75rem;
+  --radius-pill: 999px;
+
+  /* Maße */
+  --button-height: 3.5rem;
+  --control-height: 2.75rem;
+  --tap-min: 2.75rem;
+  --border: 1.5px;
+  --progress-height: 3px;
+  --icon-size: 1.5rem;
+  --illustration-height: clamp(7rem, 24vh, 12.5rem);
+  --ring-size: clamp(9rem, 46vw, 11.5rem);
+
+  /* Bewegung */
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration-fast: 160ms;
+  --duration: 320ms;
+}
+
+/* 3. Grundlagen ------------------------------------------------------------ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--color-bg);
+  background-image: var(--bg-texture);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  font-size: var(--text-m);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+h1, h2, h3, p, ul, ol { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img { display: block; max-width: 100%; }
+button, input, textarea { font: inherit; color: inherit; }
+button { touch-action: manipulation; }
+[hidden] { display: none !important; }
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.noscript {
+  padding: var(--space-6) var(--page-padding);
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* 4. Layout ---------------------------------------------------------------- */
+.app {
+  width: 100%;
+  max-width: var(--page-max);
+  margin: 0 auto;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding:
+    calc(env(safe-area-inset-top, 0px) + var(--space-3))
+    calc(env(safe-area-inset-right, 0px) + var(--page-padding))
+    calc(env(safe-area-inset-bottom, 0px) + var(--space-5))
+    calc(env(safe-area-inset-left, 0px) + var(--page-padding));
+  animation: screen-in var(--duration) var(--ease) both;
+}
+
+@keyframes screen-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+.screen__body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  padding-top: var(--space-4);
+  min-width: 0;
+}
+
+.screen__body--center { justify-content: center; }
+
+.screen__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-2);
+  padding-top: var(--space-5);
+}
+
+/* Fortschrittsbalken */
+.progress {
+  position: fixed;
+  z-index: 10;
+  top: env(safe-area-inset-top, 0px);
+  left: 0;
+  right: 0;
+  height: var(--progress-height);
+  background: var(--color-line);
+}
+.progress__bar {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--color-fg);
+  transition: width var(--duration) var(--ease);
+}
+
+/* Kopfzeile */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  min-height: var(--tap-min);
+}
+.topbar__title {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: var(--text-s);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-grey);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.topbar__slot {
+  flex: 0 0 var(--tap-min);
+  display: flex;
+}
+.topbar__slot--end { justify-content: flex-end; }
+
+/* 5. Bausteine ------------------------------------------------------------- */
+
+/* Zweizeilige Überschrift: klein + groß */
+.headline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  font-family: var(--font-serif);
+  font-weight: var(--weight-regular);
+}
+.headline__small {
+  font-size: var(--text-title-small);
+  font-style: italic;
+  line-height: 1.3;
+  color: var(--color-grey);
+}
+.headline__large {
+  font-size: var(--text-title-large);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+.headline--center { text-align: center; }
+
+.text { color: var(--color-fg); }
+.text--muted { color: var(--color-grey); }
+.text--small { font-size: var(--text-s); }
+.text--center { text-align: center; }
+
+/* Icons: SVG-Datei als Maske, Farbe kommt aus currentColor */
+.icon {
+  display: inline-block;
+  flex: none;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-color: currentColor;
+  -webkit-mask: center / contain no-repeat;
+  mask: center / contain no-repeat;
+}
+
+/* Illustrationen (Platzhalter-Grafiken aus assets/) */
+.illustration {
+  width: 100%;
+  height: var(--illustration-height);
+  object-fit: contain;
+}
+.illustration--small { height: calc(var(--illustration-height) * 0.6); }
+.illustration--hero { height: clamp(10rem, 36vh, 19rem); }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--button-height);
+  padding: var(--space-2) var(--space-5);
+  border: var(--border) solid var(--color-fg);
+  border-radius: var(--radius-pill);
+  background: var(--color-fg);
+  color: var(--color-on-fg);
+  font-size: var(--text-m);
+  font-weight: var(--weight-medium);
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity var(--duration-fast) var(--ease), transform var(--duration-fast) var(--ease);
+}
+.btn:active { transform: scale(0.985); opacity: 0.85; }
+.btn[disabled] { opacity: 0.35; cursor: default; }
+.btn--ghost {
+  background: transparent;
+  color: var(--color-fg);
+}
+.btn--text {
+  min-height: var(--tap-min);
+  border-color: transparent;
+  background: transparent;
+  color: var(--color-grey);
+  font-weight: var(--weight-regular);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+.btn--small {
+  min-height: var(--control-height);
+  padding-inline: var(--space-4);
+  font-size: var(--text-s);
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tap-min);
+  height: var(--tap-min);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  cursor: pointer;
+}
+.icon-btn:active { background: var(--color-surface); }
+
+/* Segment-Umschalter */
+.segment {
+  display: flex;
+  padding: var(--space-1);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+}
+.segment__option {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: var(--control-height);
+  padding: var(--space-1) var(--space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-grey);
+  font-size: var(--text-s);
+  font-weight: var(--weight-medium);
+  line-height: 1.15;
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease), color var(--duration-fast) var(--ease);
+}
+.segment__option[aria-checked="true"] {
+  background: var(--color-fg);
+  color: var(--color-on-fg);
+}
+.segment__option[disabled] { opacity: 0.35; cursor: default; }
+
+.group { display: flex; flex-direction: column; gap: var(--space-2); }
+.group__label {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-grey);
+}
+.group__hint { font-size: var(--text-s); color: var(--color-grey); }
+
+/* Etikett „X ist dran“ */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: var(--space-2);
+  max-width: 100%;
+  min-height: 2rem;
+  padding: var(--space-1) var(--space-3);
+  border: var(--border) solid var(--color-fg);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-s);
+  font-weight: var(--weight-medium);
+  overflow-wrap: anywhere;
+}
+.chip--muted { border-color: var(--color-line); color: var(--color-grey); }
+.chip--center { align-self: center; }
+
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.chips--center { justify-content: center; }
+.chip-btn {
+  min-height: var(--control-height);
+  padding: var(--space-1) var(--space-4);
+  border: var(--border) solid var(--color-line);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg);
+  font-size: var(--text-s);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+}
+.chip-btn[aria-pressed="true"], .chip-btn[aria-checked="true"] {
+  border-color: var(--color-fg);
+  background: var(--color-fg);
+  color: var(--color-on-fg);
+}
+
+/* Listen-Kacheln (Modus, Kategorien, Minispiele) */
+.tiles { display: flex; flex-direction: column; gap: var(--space-3); }
+.tile {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  width: 100%;
+  min-height: 5rem;
+  padding: var(--space-3) var(--space-4);
+  border: var(--border) solid var(--color-line);
+  border-radius: var(--radius-m);
+  background: var(--color-bg);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color var(--duration-fast) var(--ease);
+}
+.tile:active { border-color: var(--color-fg); }
+.tile__image { flex: none; width: 3.25rem; height: 3.25rem; object-fit: contain; }
+.tile__text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.tile__title {
+  font-family: var(--font-serif);
+  font-size: var(--text-l);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.tile__desc { font-size: var(--text-s); line-height: 1.35; color: var(--color-grey); }
+.tile__badge {
+  align-self: flex-start;
+  margin-top: var(--space-1);
+  padding: 2px var(--space-2);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg);
+  font-size: var(--text-xs);
+  color: var(--color-grey);
+  white-space: nowrap;
+}
+.tile[disabled] { cursor: default; color: var(--color-grey); background: var(--color-surface); }
+.tile[disabled] .tile__image { opacity: 0.4; }
+.tile--compact { min-height: 4.25rem; }
+
+/* Eingabefelder */
+.field { display: flex; flex-direction: column; gap: var(--space-2); }
+.field__label { font-size: var(--text-s); color: var(--color-grey); }
+.field__input {
+  width: 100%;
+  min-height: var(--button-height);
+  padding: var(--space-3) var(--space-4);
+  border: var(--border) solid var(--color-line);
+  border-radius: var(--radius-m);
+  background: var(--color-bg);
+  font-size: var(--text-m);   /* mindestens 16px, sonst zoomt iOS */
+}
+.field__input:focus { outline: none; border-color: var(--color-fg); }
+textarea.field__input { min-height: 5.5rem; resize: none; line-height: 1.4; }
+.field__hint { font-size: var(--text-xs); color: var(--color-grey); }
+
+.check {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: var(--text-s);
+  cursor: pointer;
+}
+.check input {
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 2px 0 0;
+  accent-color: var(--color-fg);
+}
+
+/* Spielkarte */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border: var(--border) solid var(--color-line);
+  border-radius: var(--radius-l);
+  background: var(--color-bg);
+}
+.card--grow { flex: 1 1 auto; justify-content: center; }
+.card__kicker {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-grey);
+}
+.card__text {
+  font-family: var(--font-serif);
+  font-size: var(--text-card);
+  line-height: var(--leading-card);
+  overflow-wrap: break-word;
+  hyphens: auto;
+  -webkit-hyphenate-limit-before: 4;
+  -webkit-hyphenate-limit-after: 4;
+  hyphenate-limit-chars: 10 4 4;
+}
+.card__text--large { font-size: var(--text-title-large); line-height: var(--leading-tight); }
+.card__note { font-size: var(--text-s); color: var(--color-grey); }
+.card__image { align-self: center; width: 4rem; height: 4rem; object-fit: contain; }
+
+/* Antworten der Wissenskarten */
+.answers { display: flex; flex-direction: column; gap: var(--space-2); }
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: var(--button-height);
+  padding: var(--space-3) var(--space-4);
+  border: var(--border) solid var(--color-line);
+  border-radius: var(--radius-m);
+  background: var(--color-bg);
+  font-size: var(--text-m);
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.answer:not([disabled]):active { border-color: var(--color-fg); }
+.answer[disabled] { cursor: default; color: var(--color-grey); }
+.answer--tipp { border-style: dashed; border-color: var(--color-grey); }
+.answer--loesung, .answer--loesung[disabled] {
+  border-color: var(--color-fg);
+  background: var(--color-fg);
+  color: var(--color-on-fg);
+}
+.answer__tag { flex: none; font-size: var(--text-xs); opacity: 0.8; }
+
+/* Timer-Ring */
+.ring {
+  position: relative;
+  align-self: center;
+  width: var(--ring-size);
+  height: var(--ring-size);
+}
+.ring__svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ring__track { fill: none; stroke: var(--color-line); stroke-width: 3; }
+.ring__value {
+  fill: none;
+  stroke: var(--color-fg);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 250ms linear;
+}
+.ring__label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.ring__sub {
+  margin-top: var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-grey);
+}
+
+/* Große Zahl (z. B. Ergebnis beim Stirnraten) */
+.display {
+  font-family: var(--font-serif);
+  font-size: var(--text-display);
+  line-height: 1;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fließtext-Abschnitte (Über-Screen) */
+.prose { display: flex; flex-direction: column; gap: var(--space-3); }
+.prose h2 {
+  margin-top: var(--space-4);
+  font-family: var(--font-serif);
+  font-size: var(--text-l);
+  font-weight: var(--weight-regular);
+}
+.prose p, .prose li { font-size: var(--text-s); color: var(--color-fg); }
+.prose ul { display: flex; flex-direction: column; gap: var(--space-2); padding-left: var(--space-4); list-style: disc; }
+.prose a { color: inherit; text-underline-offset: 0.2em; overflow-wrap: anywhere; }
+
+.list-plain { display: flex; flex-direction: column; gap: var(--space-2); }
+.list-plain li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-line);
+  font-size: var(--text-s);
+}
+.list-plain__note { flex: none; color: var(--color-grey); }
+
+.divider { height: 1px; border: 0; margin: 0; background: var(--color-line); }
+
+/* 6. Screens --------------------------------------------------------------- */
+.screen--start .screen__body { justify-content: center; text-align: center; }
+.screen--ende .screen__body { justify-content: center; text-align: center; }
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-1) var(--space-4);
+}
+
+/* Pause-/Hinweis-Ebene */
+.overlay {
+  position: fixed;
+  z-index: 30;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  background: var(--color-bg);
+  overflow-y: auto;
+}
+.overlay > .screen { width: 100%; max-width: var(--page-max); }
+
+/* 7. Minispiele ------------------------------------------------------------ */
+
+/* Schritt-für-Schritt-Text (Gedankengeschichte, Zukunftsbild) */
+.step-count { font-size: var(--text-xs); color: var(--color-grey); letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* Wort-Assoziation */
+.word {
+  font-family: var(--font-serif);
+  font-size: clamp(2.25rem, 13vw, 3.5rem);
+  line-height: 1.1;
+  text-align: center;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
+.compare__cell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+  padding: var(--space-4);
+  border: var(--border) solid var(--color-line);
+  border-radius: var(--radius-m);
+  text-align: center;
+}
+.compare__name { font-size: var(--text-xs); color: var(--color-grey); overflow-wrap: anywhere; }
+.compare__word { font-family: var(--font-serif); font-size: var(--text-l); overflow-wrap: anywhere; }
+
+/* Gefühlsrad */
+.wheel { align-self: center; width: min(100%, 21rem); aspect-ratio: 1; }
+.wheel svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.wheel__segment { fill: var(--color-bg); stroke: var(--color-fg); stroke-width: 1.5; cursor: pointer; transition: fill var(--duration-fast) var(--ease); }
+.wheel__segment:nth-of-type(even) { fill: var(--color-surface); }
+.wheel__segment[aria-pressed="true"] { fill: var(--color-fg); }
+.wheel__label { font-family: var(--font-sans); font-size: 11px; font-weight: var(--weight-medium); fill: var(--color-fg); pointer-events: none; }
+.wheel__label--active { fill: var(--color-on-fg); }
+.wheel__hub { fill: var(--color-bg); stroke: var(--color-fg); stroke-width: 1.5; pointer-events: none; }
+
+/* Atem zu zweit */
+.breath {
+  position: relative;
+  align-self: center;
+  width: min(78vw, 18rem);
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.breath__outline {
+  position: absolute;
+  inset: 0;
+  border: var(--border) solid var(--color-line);
+  border-radius: 50%;
+}
+.breath__circle {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--color-fg);
+  transform: scale(0.4);
+  transition: transform 4s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+.breath__circle--partner {
+  background: transparent;
+  border: var(--border) solid var(--color-grey);
+  transition-delay: 120ms;
+}
+.breath__label {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-serif);
+  font-size: var(--text-l);
+  color: var(--color-on-fg);
+  mix-blend-mode: difference;
+}
+
+/* Heiraten, Küssen, Weg damit */
+.assign { display: flex; flex-direction: column; gap: var(--space-4); }
+.assign__item { display: flex; flex-direction: column; gap: var(--space-2); }
+.assign__name { font-family: var(--font-serif); font-size: var(--text-l); line-height: 1.25; overflow-wrap: anywhere; }
+
+/* Wer bin ich? */
+.reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  min-height: 11rem;
+  padding: var(--space-5);
+  border: var(--border) dashed var(--color-grey);
+  border-radius: var(--radius-l);
+  text-align: center;
+}
+.reveal--open { border-style: solid; border-color: var(--color-fg); }
+
+/* 8. Stirnraten (quergedrehte Vollbild-Ansicht) ----------------------------- */
+.stirn {
+  position: fixed;
+  z-index: 40;
+  inset: 0;
+  overflow: hidden;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+/* Im Hochformat wird die Bühne um 90° gedreht, damit das Handy quer gehalten werden kann. */
+.stirn__stage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vh;
+  width: 100dvh;
+  height: 100vw;
+  transform: translate(-50%, -50%) rotate(90deg);
+  display: flex;
+  flex-direction: column;
+  padding: max(var(--space-4), env(safe-area-inset-top, 0px)) var(--space-5);
+  transition: background var(--duration-fast) var(--ease), color var(--duration-fast) var(--ease);
+}
+@media (orientation: landscape) {
+  .stirn__stage {
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    transform: translate(-50%, -50%);
+    padding: var(--space-4) max(var(--space-5), env(safe-area-inset-left, 0px));
+  }
+}
+.stirn__stage--erraten { background: var(--color-fg); color: var(--color-on-fg); }
+.stirn__stage--weiter { background: var(--color-line); }
+
+.stirn__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  font-size: var(--text-s);
+}
+.stirn__time { font-variant-numeric: tabular-nums; font-weight: var(--weight-medium); }
+.stirn__timebar { flex: 1 1 auto; height: var(--progress-height); background: var(--color-line); }
+.stirn__timebar i { display: block; height: 100%; width: 100%; background: currentColor; transform-origin: left; }
+.stirn__close {
+  min-height: var(--tap-min);
+  padding: 0 var(--space-3);
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: var(--text-s);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  cursor: pointer;
+}
+.stirn__main {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.stirn__term {
+  font-family: var(--font-serif);
+  font-size: 96px;           /* wird von minigames.js passend skaliert */
+  line-height: 1.05;
+  text-align: center;
+  overflow-wrap: normal;
+}
+.stirn__hint { max-width: 32rem; text-align: center; font-family: var(--font-serif); font-size: clamp(1.25rem, 5vh, 1.75rem); line-height: 1.3; }
+.stirn__zones { display: flex; gap: var(--space-3); }
+.stirn__zone {
+  flex: 1 1 0;
+  min-height: 3.25rem;
+  border: var(--border) solid currentColor;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: inherit;
+  font-size: var(--text-s);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+}
+.stirn__zone--primary { background: var(--color-fg); color: var(--color-on-fg); border-color: var(--color-fg); }
+.stirn__stage--erraten .stirn__zone, .stirn__stage--weiter .stirn__zone { visibility: hidden; }
+
+/* Weniger Bewegung, wenn das System darum bittet */
+@media (prefers-reduced-motion: reduce) {
+  .screen { animation: none; }
+  .btn, .progress__bar { transition: none; }
+}
+
+/* Auf großen Bildschirmen wirkt die App wie ein Handy in der Mitte */
+@media (min-width: 30rem) {
+  body { background-color: var(--color-surface); }
+  .app { background: var(--color-bg) var(--bg-texture); min-height: 100vh; box-shadow: 0 0 0 1px var(--color-line); }
+}
